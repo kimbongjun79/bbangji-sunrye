@@ -30,6 +30,14 @@ android {
         versionName = flutter.versionName
     }
 
+    // 카카오맵 SDK는 ARM 전용. 다른 플러그인의 x86 라이브러리가 섞이면 x86 기기·에뮬레이터가 x86_64를 고르고
+    // 카카오·Flutter 라이브러리를 못 찾는다. ARM만 담으면 x86_64 에뮬레이터는 ARM 변환으로 실행한다.
+    packaging {
+        jniLibs {
+            excludes += listOf("lib/x86/**", "lib/x86_64/**")
+        }
+    }
+
     signingConfigs {
         if (keyProperties.containsKey("storeFile")) {
             create("app") {

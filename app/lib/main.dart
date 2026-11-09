@@ -16,8 +16,17 @@ const kakaoNativeKey = String.fromEnvironment('KAKAO_NATIVE_KEY');
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await KakaoMapSdk.instance.initialize(kakaoNativeKey);
-  final state = AppState(StoreRepository(), await SharedPreferences.getInstance());
+  String? mapInitError;
+  if (kakaoNativeKey.isEmpty) {
+    mapInitError = '카카오맵 앱 키 없이 빌드되어 지도를 표시할 수 없어요.';
+  } else {
+    try {
+      await KakaoMapSdk.instance.initialize(kakaoNativeKey);
+    } catch (e) {
+      mapInitError = '카카오맵 초기화 실패: $e';
+    }
+  }
+  final state = AppState(StoreRepository(), await SharedPreferences.getInstance(), mapInitError: mapInitError);
   await state.init();
   runApp(ChangeNotifierProvider.value(value: state, child: const BbangjiApp()));
   state.syncRemote();

@@ -119,7 +119,7 @@ class CourseDetailScreen extends StatelessWidget {
               message: '지도나 검색에서 가게를 고른 뒤\n‘코스에 담기’를 눌러주세요.',
             )
           : Column(children: [
-              SizedBox(height: 220, child: CourseMap(stores: stores, start: start)),
+              if (state.mapInitError == null) SizedBox(height: 220, child: CourseMap(stores: stores, start: start)),
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
                 child: Row(children: [

@@ -251,7 +251,7 @@ class _HoursRow extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        SizedBox(width: 44, child: Text(today ? '$day(오늘)' : day, style: style)),
+        SizedBox(width: 72, child: Text(today ? '$day (오늘)' : day, style: style, maxLines: 1)),
         const SizedBox(width: 12),
         Expanded(child: Text(text, style: style)),
       ]),

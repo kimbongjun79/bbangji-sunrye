@@ -29,6 +29,7 @@ class _MapScreenState extends State<MapScreen> {
   KakaoMapController? _map;
   LabelController? _storeLayer;
   LabelController? _meLayer;
+  Poi? _mePoi;
   int _layerSeq = 0;
   int _renderSeq = 0;
   bool _rendering = false;
@@ -49,6 +50,11 @@ class _MapScreenState extends State<MapScreen> {
     _state = context.read<AppState>();
     _state.addListener(_onStateChanged);
     _filterSignature = _signature();
+    if (_state.mapInitError != null) {
+      // 지도 없이 목록으로만 동작. 거리 정렬을 위해 위치만 요청.
+      _listMode = true;
+      _state.locate();
+    }
   }
 
   @override
@@ -88,17 +94,16 @@ class _MapScreenState extends State<MapScreen> {
     }
     final me = _meLayer;
     if (me != null) {
-      await me.hideAllPoi();
-      await me.addPoi(LatLng(p.lat, p.lng), style: await _styles.me());
+      final mePoi = _mePoi;
+      if (mePoi == null) {
+        _mePoi = await me.addPoi(LatLng(p.lat, p.lng), style: await _styles.me());
+      } else {
+        await mePoi.move(LatLng(p.lat, p.lng));
+      }
     }
-    // 대전 밖이면 지도를 옮기지 않는다.
-    final inDaejeon = distanceMeters(p, daejeonCenter) < 30000;
-    if (move && inDaejeon) {
+    if (move) {
       await _map?.moveCamera(CameraUpdate.newCenterPosition(LatLng(p.lat, p.lng), zoomLevel: 15),
           animation: const CameraAnimation(400));
-    } else if (move && !inDaejeon && mounted) {
-      ScaffoldMessenger.of(context)
-          .showSnackBar(const SnackBar(content: Text('현재 위치가 대전 밖이라 대전 중심을 보여드려요')));
     }
   }
 
@@ -191,29 +196,36 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     final state = context.watch<AppState>();
     final top = MediaQuery.paddingOf(context).top;
+    final mapAvailable = state.mapInitError == null;
     return Scaffold(
       body: Stack(children: [
-        Positioned.fill(
-          child: KakaoMap(
-            key: _mapKey,
-            option: KakaoMapOption(position: LatLng(daejeonCenter.lat, daejeonCenter.lng), zoomLevel: 13),
-            onMapReady: _onMapReady,
-            onMapError: (e) => setState(() => _mapError = '지도를 불러오지 못했어요: $e'),
-            onCameraMoveEnd: (_, _) => _renderMarkers(),
-            onMapClick: (_, _) {
-              if (_selected != null) {
-                setState(() => _selected = null);
-                _renderMarkers();
-              }
-            },
+        if (mapAvailable)
+          Positioned.fill(
+            child: KakaoMap(
+              key: _mapKey,
+              option: KakaoMapOption(position: LatLng(daejeonCenter.lat, daejeonCenter.lng), zoomLevel: 13),
+              onMapReady: _onMapReady,
+              onMapError: (e) => setState(() => _mapError = '지도를 불러오지 못했어요: $e'),
+              onCameraMoveEnd: (_, _) => _renderMarkers(),
+              onMapClick: (_, _) {
+                if (_selected != null) {
+                  setState(() => _selected = null);
+                  _renderMarkers();
+                }
+              },
+            ),
           ),
-        ),
         if (_listMode)
           Positioned.fill(
             child: Container(
               color: Palette.cream,
               padding: EdgeInsets.only(top: top + 118),
-              child: _StoreList(near: _center, onTap: _focusStore),
+              child: _StoreList(
+                near: mapAvailable ? _center : (state.userLocation ?? daejeonCenter),
+                onTap: mapAvailable ? _focusStore : (s) => openStoreDetail(context, s),
+                notice: state.mapInitError,
+                originLabel: mapAvailable ? '지도 중심에서 가까운 순' : '현재 위치(또는 대전 중심)에서 가까운 순',
+              ),
             ),
           ),
         Positioned(
@@ -249,6 +261,7 @@ class _MapScreenState extends State<MapScreen> {
               _RoundButton(icon: Icons.my_location_rounded, tooltip: '현재 위치', onTap: () => _locateMe()),
             ]),
           ),
+        if (mapAvailable)
         Positioned(
           left: 0,
           right: 0,
@@ -344,9 +357,11 @@ class _FilterChips extends StatelessWidget {
 }
 
 class _StoreList extends StatelessWidget {
-  const _StoreList({required this.near, required this.onTap});
+  const _StoreList({required this.near, required this.onTap, required this.originLabel, this.notice});
   final GeoPoint near;
   final ValueChanged<Store> onTap;
+  final String originLabel;
+  final String? notice;
 
   @override
   Widget build(BuildContext context) {
@@ -356,12 +371,20 @@ class _StoreList extends StatelessWidget {
       return const EmptyState(icon: Icons.search_off_rounded, title: '조건에 맞는 가게가 없어요', message: '검색어나 필터를 바꿔보세요.');
     }
     return Column(children: [
+      if (notice != null)
+        Container(
+          width: double.infinity,
+          margin: const EdgeInsets.fromLTRB(12, 0, 12, 6),
+          padding: const EdgeInsets.all(10),
+          decoration: BoxDecoration(color: const Color(0xFFFFE9E4), borderRadius: BorderRadius.circular(12)),
+          child: Text(notice!, style: const TextStyle(fontSize: 13)),
+        ),
       Padding(
         padding: const EdgeInsets.fromLTRB(16, 4, 16, 4),
         child: Row(children: [
           Text('${stores.length}곳', style: const TextStyle(fontWeight: FontWeight.w800)),
           const SizedBox(width: 6),
-          const Text('· 지도 중심에서 가까운 순', style: TextStyle(color: Palette.muted)),
+          Text('· $originLabel', style: const TextStyle(color: Palette.muted)),
         ]),
       ),
       Expanded(

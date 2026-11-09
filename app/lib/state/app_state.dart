@@ -26,7 +26,16 @@ class Course {
 enum DataSyncState { idle, checking, updated, failed }
 
 class AppState extends ChangeNotifier {
-  AppState(this._repo, this._prefs, {DateTime Function()? clock}) : _clock = clock ?? DateTime.now;
+  AppState(this._repo, this._prefs, {DateTime Function()? clock, this.mapInitError}) : _clock = clock ?? nowKst;
+
+  /// 가게 영업시간은 한국 시간 기준. 기기 시간대와 무관하게 KST 벽시계 시각을 쓴다.
+  static DateTime nowKst() {
+    final k = DateTime.now().toUtc().add(const Duration(hours: 9));
+    return DateTime(k.year, k.month, k.day, k.hour, k.minute, k.second);
+  }
+
+  /// 지도 SDK를 쓸 수 없는 이유. null이면 지도 사용 가능.
+  final String? mapInitError;
 
   final StoreRepository _repo;
   final SharedPreferences _prefs;
@@ -121,6 +130,8 @@ class AppState extends ChangeNotifier {
   }
 
   // ---- 위치 ----
+  /// 현재 위치를 구해 대전 근처(30km 이내)면 [userLocation]으로 쓴다.
+  /// 대전 밖이면 거리 기준점은 대전 중심으로 두고 null을 반환한다.
   Future<GeoPoint?> locate() async {
     locationError = null;
     try {
@@ -135,7 +146,13 @@ class AppState extends ChangeNotifier {
           final p = await Geolocator.getCurrentPosition(
             locationSettings: const LocationSettings(accuracy: LocationAccuracy.high, timeLimit: Duration(seconds: 10)),
           );
-          userLocation = GeoPoint(p.latitude, p.longitude);
+          final here = GeoPoint(p.latitude, p.longitude);
+          if (distanceMeters(here, daejeonCenter) <= 30000) {
+            userLocation = here;
+          } else {
+            userLocation = null;
+            locationError = '현재 위치가 대전 밖이라 대전 중심 기준으로 보여드려요';
+          }
         }
       }
     } catch (_) {

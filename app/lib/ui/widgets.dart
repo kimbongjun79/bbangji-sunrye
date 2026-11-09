@@ -194,7 +194,12 @@ Future<String?> promptText(BuildContext context, {required String title, String 
     context: context,
     builder: (ctx) => AlertDialog(
       title: Text(title),
-      content: TextField(controller: controller, autofocus: true, textInputAction: TextInputAction.done),
+      content: TextField(
+        controller: controller,
+        autofocus: true,
+        textInputAction: TextInputAction.done,
+        onSubmitted: (v) => Navigator.pop(ctx, v.trim().isEmpty ? null : v.trim()),
+      ),
       actions: [
         TextButton(onPressed: () => Navigator.pop(ctx), child: const Text('취소')),
         FilledButton(
