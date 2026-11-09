@@ -1,0 +1,14 @@
+keys/
+*.jks
+key.properties
+.dart_tool/
+build/
+app/.dart_tool/
+app/build/
+app/android/local.properties
+app/android/.gradle/
+__pycache__/
+.venv/
+pipeline/out/
+*.iml
+.idea/

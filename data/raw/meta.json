@@ -1,0 +1,27 @@
+{
+  "fetchedAt": "2026-11-09T22:43:32+09:00",
+  "region": "대전광역시",
+  "orgCode": "6300000_ALL",
+  "sources": {
+    "제과점영업": {
+      "dataset": "https://www.data.go.kr/data/15044973/fileData.do",
+      "download": "https://file.localdata.go.kr/file/download/bakeries/info?orgCode=6300000_ALL",
+      "rawFile": "data/raw/bakeries.csv",
+      "totalRows": 2487,
+      "notOpen": 1834,
+      "outsideRegion": 0,
+      "open": 653,
+      "sourceLastUpdated": "2026-11-06 22:16:49"
+    },
+    "휴게음식점": {
+      "dataset": "https://www.data.go.kr/data/15006730/fileData.do",
+      "download": "https://file.localdata.go.kr/file/download/rest_cafes/info?orgCode=6300000_ALL",
+      "rawFile": "data/raw/rest_cafes.csv",
+      "totalRows": 17771,
+      "notOpen": 12635,
+      "outsideRegion": 0,
+      "open": 5136,
+      "sourceLastUpdated": "2026-11-07 22:18:38"
+    }
+  }
+}

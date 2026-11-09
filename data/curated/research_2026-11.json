@@ -1,0 +1,4767 @@
+[
+  {
+    "match": {
+      "name": "성심당 대전역점",
+      "address": "대전 동구 중앙로 215"
+    },
+    "name": "성심당 대전역점",
+    "category": "bakery",
+    "franchise": false,
+    "district": "동구",
+    "address": "대전 동구 중앙로 215 (대전역사 2층)",
+    "lat": 36.3321587,
+    "lng": 127.4335969,
+    "phone": "1588-8069",
+    "instagram": "https://www.instagram.com/sungsimdang_station/",
+    "website": "https://www.sungsimdang.co.kr/",
+    "hours": {
+      "mon": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "07:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "22:30"
+      }
+    },
+    "holidayNote": "연중무휴",
+    "products": [
+      {
+        "name": "튀김소보로",
+        "price": 1700,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "판타롱부추빵",
+        "price": 2000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "명란바게트",
+        "price": 3800,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "보문산 메아리",
+        "price": 6000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "튀소세트",
+        "price": 10000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.sungsimdang.co.kr/31/19",
+        "title": "성심당 공식 홈페이지 브랜드 소개 - 성심당 대전역점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/36731468/home",
+        "title": "네이버 플레이스 성심당 대전역점 (홈)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/36731468/menu/list",
+        "title": "네이버 플레이스 성심당 대전역점 (메뉴)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "정동문화사",
+      "address": "대전 동구 창조2길 11"
+    },
+    "name": "정동문화사",
+    "category": "dessert",
+    "franchise": false,
+    "district": "동구",
+    "address": "대전 동구 창조2길 11",
+    "lat": 36.3277079,
+    "lng": 127.4356228,
+    "phone": null,
+    "instagram": "https://www.instagram.com/jd_moonhwasa/",
+    "website": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": {
+        "open": "12:00",
+        "close": "17:00"
+      },
+      "thu": {
+        "open": "12:00",
+        "close": "17:00"
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "17:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "16:00"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "16:00"
+      }
+    },
+    "holidayNote": "매주 월·화요일 휴무 (2026-09 기준, 이전에는 일·월 휴무). 오픈 전 매장에서 웨이팅 번호표 배부, 에그타르트 1인 4개 한정",
+    "products": [
+      {
+        "name": "휘낭시에 (12종)",
+        "price": 3600,
+        "note": "가격 확인 2026-05 (네이버 플레이스 메뉴 업데이트 26.05.31)"
+      },
+      {
+        "name": "까눌레 (4종)",
+        "price": 3400,
+        "note": "가격 확인 2026-05 (네이버 플레이스 메뉴 업데이트 26.05.31)"
+      },
+      {
+        "name": "에그타르트",
+        "price": 4300,
+        "note": "가격 확인 2026-05 (네이버 플레이스 메뉴 업데이트 26.05.31)"
+      },
+      {
+        "name": "솔티카라멜 휘낭시에",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1710005494/home",
+        "title": "네이버 플레이스 - 정동문화사",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1710005494/menu/list",
+        "title": "네이버 플레이스 - 정동문화사 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/lizela87/224417896967",
+        "title": "정동문화사 대전빵투어 오면 놓치지 마세요 에그타르트와 휘낭시에맛집 여기야 (네이버 블로그, 2026-09-20)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/nifty-/224432050130",
+        "title": "대전 빵투어 [정동문화사] | 평일 오전 방문 내돈내산 후기 (네이버 블로그, 2026-10-05)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://daejeontour.co.kr/month_djt/4",
+        "title": "대전관광 - [10월] 빵의 도시 대전으로 떠나는 맛있는 여행(2) (2025-10-10)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.gqkorea.co.kr/2026/06/27/%EC%84%B1%EC%8B%AC%EB%8B%B9-%EC%A4%84-%EA%B8%B8-%EB%95%90-%EC%97%90%EB%94%94%ED%84%B0%EA%B0%80-%EC%A7%81%EC%A0%91-%EB%A8%B9%EA%B3%A0-%EC%93%B0%EB%8A%94-%EB%8C%80%EC%A0%84-%EC%B6%94%EC%B2%9C-%EB%B9%B5",
+        "title": "GQ Korea - 성심당 줄 길 땐, 에디터가 직접 먹고 쓰는 대전 추천 빵집 5 (2026-06-27)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "킷사코오리",
+      "address": "대전 동구 철갑길 8"
+    },
+    "name": "킷사코오리",
+    "category": "frozen",
+    "franchise": false,
+    "district": "동구",
+    "address": "대전 동구 철갑길 8 (1층)",
+    "phone": null,
+    "instagram": null,
+    "website": null,
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "12:30",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "12:30",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "12:30",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "12:00",
+        "close": "19:30"
+      },
+      "sun": {
+        "open": "12:00",
+        "close": "19:30"
+      }
+    },
+    "holidayNote": "매주 월요일 휴무 (2026-10 기준). 웨이팅 시 매장 이용 1시간 제한, 1인 1메뉴",
+    "products": [
+      {
+        "name": "푸딩빙수",
+        "price": 17900,
+        "note": "가격 확인 2026-06 (블로그 게시일)"
+      },
+      {
+        "name": "말차푸딩빙수",
+        "price": 17900,
+        "note": "가격 확인 2026-06 (블로그 게시일)"
+      },
+      {
+        "name": "아이스크림 푸딩",
+        "price": 7000,
+        "note": "가격 확인 2026-10 (블로그 게시일)"
+      },
+      {
+        "name": "미니 화로 당고",
+        "price": 10000,
+        "note": "가격 확인 2026-10 (블로그 게시일)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.blog.naver.com/dawn_of_winter/224443406949",
+        "title": "대전 소제동 카페 추천 일본감성 분위기 킷사코오리 당고 푸딩 후기 (네이버 블로그, 2026-10-16)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/http0406/224332072730",
+        "title": "대전 빙수 맛집 추천 8곳｜실타래빙수·통메론빙수·망고빙수 총정리 (네이버 블로그, 2026-06-30)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "파시파시",
+      "address": "대전 동구 성남로 15"
+    },
+    "name": "파시파시",
+    "category": "bakery",
+    "franchise": false,
+    "district": "동구",
+    "address": "대전 동구 성남로 15 (1층 104호)",
+    "phone": "0507-1481-1566",
+    "instagram": null,
+    "website": null,
+    "hours": null,
+    "holidayNote": "매주 수요일 휴무 (대전관광 2025-10 기준)",
+    "products": [
+      {
+        "name": "검은콩 쌀식빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "쌀맘모스",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "쌀소금빵",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://daejeontour.co.kr/month_djt/4",
+        "title": "대전관광 - [10월] 빵의 도시 대전으로 떠나는 맛있는 여행(2) (2025-10-10)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": null
+  },
+  {
+    "match": {
+      "name": "호야빙 대전동구점",
+      "address": "대전 동구 용운로 85"
+    },
+    "name": "호야빙 대전동구점",
+    "category": "frozen",
+    "franchise": null,
+    "district": "동구",
+    "address": "대전 동구 용운로 85 (2층)",
+    "lat": 36.327399,
+    "lng": 127.4518915,
+    "phone": "0507-1364-2820",
+    "instagram": null,
+    "website": null,
+    "hours": null,
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "망고 눈꽃빙수",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "팥+인절미 눈꽃빙수",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "생과일골드망고눈꽃빙수",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1242545939/home",
+        "title": "네이버 플레이스 - 호야빙 대전동구점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1242545939/menu/list",
+        "title": "네이버 플레이스 - 호야빙 대전동구점 메뉴",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": null
+  },
+  {
+    "match": {
+      "name": "땡큐베리머치",
+      "address": "대전 중구 중교로 49"
+    },
+    "name": "땡큐베리머치",
+    "category": "dessert",
+    "franchise": null,
+    "district": "중구",
+    "address": "대전 중구 중교로 49 (지하1층, 1층)",
+    "phone": "070-7723-0905",
+    "instagram": "https://www.instagram.com/cafe_tyvm/",
+    "website": null,
+    "hours": null,
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "황치즈트리플케이크",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "딸기 케이크",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "쿠앤크타워빙수",
+        "price": 19500,
+        "note": "가격 확인 2026-06 (블로그 게시일)"
+      },
+      {
+        "name": "녹차타워빙수",
+        "price": 19500,
+        "note": "가격 확인 2026-06 (블로그 게시일)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.gqkorea.co.kr/2026/06/27/%EC%84%B1%EC%8B%AC%EB%8B%B9-%EC%A4%84-%EA%B8%B8-%EB%95%90-%EC%97%90%EB%94%94%ED%84%B0%EA%B0%80-%EC%A7%81%EC%A0%91-%EB%A8%B9%EA%B3%A0-%EC%93%B0%EB%8A%94-%EB%8C%80%EC%A0%84-%EC%B6%94%EC%B2%9C-%EB%B9%B5",
+        "title": "GQ Korea - 성심당 줄 길 땐, 에디터가 직접 먹고 쓰는 대전 추천 빵집 5 (2026-06-27)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/http0406/224332072730",
+        "title": "대전 빙수 맛집 추천 8곳｜실타래빙수·통메론빙수·망고빙수 총정리 (네이버 블로그, 2026-06-30)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://pf.kakao.com/_cxeuNb",
+        "title": "카카오톡채널 - 땡큐베리머치(대전대흥점)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "로로네베이커리",
+      "address": "대전 중구 중교로 30"
+    },
+    "name": "로로네베이커리",
+    "category": "bakery",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 중교로 30 (승촌빌딩 1층)",
+    "lat": 36.3250351,
+    "lng": 127.4232818,
+    "phone": "010-4648-7556",
+    "instagram": "https://www.instagram.com/rorone_bakery/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "19:30"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "19:30"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "19:30"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "19:30"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "19:30"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "19:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "19:00"
+      }
+    },
+    "holidayNote": "공휴일 10:00~19:00, 준비된 빵 소진 시 조기 마감",
+    "products": [
+      {
+        "name": "피스타치오크림 (리본 페이스트리)",
+        "price": 6200,
+        "note": "가격 확인 2026-10 (블로그 게시일)"
+      },
+      {
+        "name": "크로와상",
+        "price": 3500,
+        "note": "가격 확인 2026-10 (블로그 게시일)"
+      },
+      {
+        "name": "퀸아망",
+        "price": 4500,
+        "note": "가격 확인 2026-10 (블로그 게시일)"
+      },
+      {
+        "name": "빨미까레",
+        "price": 4800,
+        "note": "가격 확인 2026-10 (블로그 게시일)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1609943637/home",
+        "title": "네이버 플레이스 - 로로네베이커리",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/830mm/224438082184",
+        "title": "로로네베이커리 | 대전 대흥동 빵지순례 몽심 근처 카페 빵맛집 메뉴 가격 (네이버 블로그, 2026-10-11)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.gqkorea.co.kr/2026/06/27/%EC%84%B1%EC%8B%AC%EB%8B%B9-%EC%A4%84-%EA%B8%B8-%EB%95%90-%EC%97%90%EB%94%94%ED%84%B0%EA%B0%80-%EC%A7%81%EC%A0%91-%EB%A8%B9%EA%B3%A0-%EC%93%B0%EB%8A%94-%EB%8C%80%EC%A0%84-%EC%B6%94%EC%B2%9C-%EB%B9%B5",
+        "title": "GQ Korea - 성심당 줄 길 땐, 에디터가 직접 먹고 쓰는 대전 추천 빵집 5 (2026-06-27)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "몽심 대흥점",
+      "address": "대전 중구 중교로 32"
+    },
+    "name": "몽심 대흥점",
+    "category": "bakery",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 중교로 32 (1층)",
+    "lat": 36.3251371,
+    "lng": 127.4235616,
+    "phone": null,
+    "instagram": "https://www.instagram.com/official_mongsim/",
+    "website": "https://litt.ly/mongsim",
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "18:00"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "18:00"
+      }
+    },
+    "holidayNote": "매일 영업, 소진 시 마감 (캐치테이블 현장 등록 09:00 / 원격 09:30부터)",
+    "products": [
+      {
+        "name": "레몬마들렌",
+        "price": 2500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      },
+      {
+        "name": "밀키연유마들렌",
+        "price": 2500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      },
+      {
+        "name": "산딸기초코바게트",
+        "price": 7500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      },
+      {
+        "name": "초코바게트",
+        "price": 6500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      },
+      {
+        "name": "클래식버터 휘낭시에",
+        "price": 3500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1007780014/home",
+        "title": "네이버 플레이스 - 몽심 대흥점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1007780014/menu/list",
+        "title": "네이버 플레이스 - 몽심 대흥점 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://litt.ly/mongsim",
+        "title": "리틀리 | 대전 베이커리 [몽심] mongsim (공식 링크 페이지)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/pjh8750/224445535484",
+        "title": "몽심 대흥점 웨이팅, 캐치테이블 등록 위치와 마들렌·휘낭시에 가격 (네이버 블로그, 2026-10-18)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.tabling.co.kr/place/677cd87466de5f069894891d",
+        "title": "테이블링 - 몽심 대흥점",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "몽심케이크샵",
+      "address": "대전 중구 중앙로 138"
+    },
+    "name": "몽심케이크샵",
+    "category": "dessert",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 중앙로 138 (1층)",
+    "lat": 36.3281425,
+    "lng": 127.4250952,
+    "phone": null,
+    "instagram": "https://www.instagram.com/official_mongsim/",
+    "website": "https://blog.naver.com/mongsim_official/",
+    "hours": null,
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "밀키연유마들렌",
+        "price": 2500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      },
+      {
+        "name": "라즈베리 빅토리아 케이크",
+        "price": 7200,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      },
+      {
+        "name": "하우스 초콜릿 케이크",
+        "price": 8900,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      },
+      {
+        "name": "몽 하우스 티라미수 케이크",
+        "price": 8500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      },
+      {
+        "name": "클래식 버터 휘낭시에",
+        "price": 3500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.22)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/2092540207/home",
+        "title": "네이버 플레이스 - 몽심케이크샵",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/2092540207/menu/list",
+        "title": "네이버 플레이스 - 몽심케이크샵 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://litt.ly/mongsim",
+        "title": "리틀리 | 대전 베이커리 [몽심] mongsim (공식 링크 페이지)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/seoro_season/224444588328",
+        "title": "대전구움과자맛집 몽심케이크샵 마들렌 휘낭시에 구입하기 (네이버 블로그, 2026-10-17)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "베베꽈배기",
+      "address": "대전 중구 문창로18번길 2"
+    },
+    "name": "베베꽈배기",
+    "category": "frozen",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 문창로18번길 2",
+    "lat": 36.3150914,
+    "lng": 127.4359999,
+    "phone": "0507-1435-8918",
+    "instagram": "https://www.instagram.com/bebe.donut/",
+    "website": null,
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    "holidayNote": "매주 월요일 휴무",
+    "products": [
+      {
+        "name": "티라미수 꽈배기",
+        "price": 3200,
+        "note": "가격 확인 2026-09 (대전관광 게시일)"
+      },
+      {
+        "name": "수제생초코 꽈배기",
+        "price": 3200,
+        "note": "가격 확인 2026-09 (대전관광 게시일)"
+      },
+      {
+        "name": "라즈베리 꽈배기",
+        "price": 3100,
+        "note": "가격 확인 2026-09 (대전관광 게시일)"
+      },
+      {
+        "name": "눈꽃딸기 꽈배기",
+        "price": 3200,
+        "note": "가격 확인 2026-09 (대전관광 게시일)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://daejeontour.co.kr/find_djt/11",
+        "title": "대전관광 - [동네 구석구석] 중구 문창동·부사동 (2026-09-01)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1146881234/home",
+        "title": "네이버 플레이스 - 베베꽈배기",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "성심당",
+      "address": "대전 중구 대종로480번길 15"
+    },
+    "name": "성심당 본점",
+    "category": "bakery",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 대종로480번길 15",
+    "lat": 36.3276671,
+    "lng": 127.4273419,
+    "phone": "1588-8069",
+    "instagram": "https://www.instagram.com/sungsimdang_mainstore/",
+    "website": "https://www.sungsimdang.co.kr/",
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": "연중무휴",
+    "products": [
+      {
+        "name": "튀김소보로",
+        "price": 1700,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.07)"
+      },
+      {
+        "name": "판타롱부추빵",
+        "price": 2000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.07)"
+      },
+      {
+        "name": "보문산메아리",
+        "price": 6000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.07)"
+      },
+      {
+        "name": "소금빵",
+        "price": 1500,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.07)"
+      },
+      {
+        "name": "전설의 팥빙수",
+        "price": 7000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.07)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.sungsimdang.co.kr/31/15",
+        "title": "성심당 공식 홈페이지 브랜드 소개 - 성심당 본점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/11871325/home",
+        "title": "네이버 플레이스 성심당 본점 (홈)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/11871325/menu/list",
+        "title": "네이버 플레이스 성심당 본점 (메뉴)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "성심당 시루케익 전문점",
+      "address": "대전 중구 대종로 484"
+    },
+    "name": "성심당 시루케익전문점",
+    "category": "dessert",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 대종로 484 (1층)",
+    "lat": 36.3276993,
+    "lng": 127.4266946,
+    "phone": "1588-8069",
+    "instagram": "https://www.instagram.com/sungsimdang_cakeboutique/",
+    "website": "https://www.sungsimdang.co.kr/",
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "19:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "19:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "19:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "19:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:30"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "holidayNote": "연중무휴",
+    "products": [
+      {
+        "name": "망고시루",
+        "price": 43000,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.02)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.sungsimdang.co.kr/31/31",
+        "title": "성심당 공식 홈페이지 브랜드 소개 - 성심당 시루케익전문점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/2052808968/home",
+        "title": "네이버 플레이스 성심당 시루케익 전문점 (홈)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/2052808968/menu/list",
+        "title": "네이버 플레이스 성심당 시루케익 전문점 (메뉴)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "성심당 옛맛솜씨",
+      "address": "대전 중구 대종로480번길 14"
+    },
+    "name": "성심당 옛맛솜씨",
+    "category": "frozen",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 대종로480번길 14",
+    "lat": 36.3274998,
+    "lng": 127.4273461,
+    "phone": "1588-8069",
+    "instagram": "https://www.instagram.com/sungsimdang_somsi/",
+    "website": "https://www.sungsimdang.co.kr/",
+    "hours": {
+      "mon": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "09:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "09:30",
+        "close": "21:00"
+      }
+    },
+    "holidayNote": "연중무휴",
+    "products": [
+      {
+        "name": "한국흑깨빙수",
+        "price": 10000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "보문산빙수",
+        "price": 9000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "논산빙수",
+        "price": 9000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "살얼음 옛맛식혜",
+        "price": 4000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.sungsimdang.co.kr/31/24",
+        "title": "성심당 공식 홈페이지 브랜드 소개 - 성심당 옛맛솜씨",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1829271382/home",
+        "title": "네이버 플레이스 성심당 옛맛솜씨 (홈)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1829271382/menu/list",
+        "title": "네이버 플레이스 성심당 옛맛솜씨 (메뉴)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "성심당 케익부띠끄",
+      "address": "대전 중구 대종로 480"
+    },
+    "name": "성심당 케익부띠끄 본점",
+    "category": "dessert",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 대종로 480",
+    "lat": 36.3275242,
+    "lng": 127.4267835,
+    "phone": "1588-8069",
+    "instagram": "https://www.instagram.com/sungsimdang_cakeboutique/",
+    "website": "https://www.sungsimdang.co.kr/",
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:30"
+      }
+    },
+    "holidayNote": "연중무휴",
+    "products": [
+      {
+        "name": "순수롤",
+        "price": 14000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "딸기모차르트",
+        "price": 31000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "순수마들렌 2호(10개입)",
+        "price": 12000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "순도99.99",
+        "price": 18000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "교황님의 치즈스콘",
+        "price": 4000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.sungsimdang.co.kr/31/16",
+        "title": "성심당 공식 홈페이지 브랜드 소개 - 성심당 케익부띠끄",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/35644550/home",
+        "title": "네이버 플레이스 성심당 케익부띠끄 (홈)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/35644550/menu/list",
+        "title": "네이버 플레이스 성심당 케익부띠끄 (메뉴)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "세이비건",
+      "address": "대전 중구 대종로 585"
+    },
+    "name": "세이비건",
+    "category": "bakery",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 대종로 585 (1층)",
+    "phone": "0507-1333-2523",
+    "instagram": "https://www.instagram.com/seivegan/",
+    "website": "https://www.seivegan.com/",
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "11:00",
+        "close": "17:30"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "17:30"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "17:30"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "17:30"
+      },
+      "sat": null,
+      "sun": null
+    },
+    "holidayNote": "토·일·월요일 휴무 (대전관광 2025-10 기준)",
+    "products": [
+      {
+        "name": "글루텐 프리 비건 식빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "글루텐 프리 비건 머핀",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "현미 초코송이",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.seivegan.com/",
+        "title": "글루텐프리 비건 베이커리 세이비건 (공식 사이트)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://daejeontour.co.kr/month_djt/4",
+        "title": "대전관광 - [10월] 빵의 도시 대전으로 떠나는 맛있는 여행(2) (2025-10-10)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": null
+  },
+  {
+    "match": {
+      "name": "케익하우스시온",
+      "address": "대전 중구 보문로 36-2"
+    },
+    "name": "케익하우스시온",
+    "category": "bakery",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 보문로 36-2",
+    "phone": null,
+    "instagram": null,
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "06:00",
+        "close": "22:00"
+      },
+      "sun": null
+    },
+    "holidayNote": "매주 일요일 휴무",
+    "products": [
+      {
+        "name": "밤식빵",
+        "price": 6000,
+        "note": "가격 확인 2026-09 (대전관광 게시일)"
+      },
+      {
+        "name": "비빔밥고로케",
+        "price": 2000,
+        "note": "가격 확인 2026-09 (대전관광 게시일)"
+      },
+      {
+        "name": "팥도너츠",
+        "price": 1500,
+        "note": "가격 확인 2026-09 (대전관광 게시일)"
+      },
+      {
+        "name": "쌀 식빵",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://daejeontour.co.kr/find_djt/11",
+        "title": "대전관광 - [동네 구석구석] 중구 문창동·부사동 (2026-09-01)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "콜드버터베이크샵 본점",
+      "address": "대전 중구 중앙로112번길 37"
+    },
+    "name": "콜드버터베이크샵 본점",
+    "category": "bakery",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 중앙로112번길 37 (1층 일부 1호)",
+    "lat": 36.3257763,
+    "lng": 127.4234064,
+    "phone": "0507-1346-3832",
+    "instagram": "https://www.instagram.com/coldbutter_bakeshop_/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "tue": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "12:00",
+        "close": "19:00"
+      },
+      "sun": {
+        "open": "12:00",
+        "close": "19:00"
+      }
+    },
+    "holidayNote": "연중무휴 (크림 소금빵류는 13시부터 출고, 캐치테이블 웨이팅)",
+    "products": [
+      {
+        "name": "콜버 크랙 소금빵",
+        "price": 3500,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.07)"
+      },
+      {
+        "name": "생우유크림 소금빵",
+        "price": 4800,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.07)"
+      },
+      {
+        "name": "황치즈크림 소금빵",
+        "price": 4800,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.07)"
+      },
+      {
+        "name": "황치즈 휘낭시에",
+        "price": 3200,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.07)"
+      },
+      {
+        "name": "실크 푸딩 에그타르트",
+        "price": 3800,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.07)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1839529474/home",
+        "title": "네이버 플레이스 - 콜드버터베이크샵 본점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1839529474/menu/list",
+        "title": "네이버 플레이스 - 콜드버터베이크샵 본점 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://daejeontour.co.kr/month_djt/4",
+        "title": "대전관광 - [10월] 빵의 도시 대전으로 떠나는 맛있는 여행(2) (2025-10-10)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/gikwang0403/224428710303",
+        "title": "대전 콜드버터베이크샵 본점 대흥동 소금빵 맛집 빵지순례 추천 (네이버 블로그, 2026-10-01)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.gqkorea.co.kr/2026/06/27/%EC%84%B1%EC%8B%AC%EB%8B%B9-%EC%A4%84-%EA%B8%B8-%EB%95%90-%EC%97%90%EB%94%94%ED%84%B0%EA%B0%80-%EC%A7%81%EC%A0%91-%EB%A8%B9%EA%B3%A0-%EC%93%B0%EB%8A%94-%EB%8C%80%EC%A0%84-%EC%B6%94%EC%B2%9C-%EB%B9%B5",
+        "title": "GQ Korea - 성심당 줄 길 땐, 에디터가 직접 먹고 쓰는 대전 추천 빵집 5 (2026-06-27)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.tabling.co.kr/place/677cd4ab66de5f06988dd20b",
+        "title": "테이블링 - 콜드버터 베이크샵",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "파티세리 소신 대흥점",
+      "address": "대전 중구 중교로 27-2"
+    },
+    "name": "파티세리 소신 대흥점",
+    "category": "dessert",
+    "franchise": false,
+    "district": "중구",
+    "address": "대전 중구 중교로 27-2 (1층)",
+    "phone": null,
+    "instagram": null,
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "20:30"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "너를 생각하는 꿈돌이 (쁘띠갸또)",
+        "price": 10500,
+        "note": "가격 확인 2026-09 (블로그 게시일)"
+      },
+      {
+        "name": "구운 피스타치오 (쁘띠갸또)",
+        "price": 9500,
+        "note": "가격 확인 2026-09 (블로그 게시일)"
+      },
+      {
+        "name": "소신 부케",
+        "price": 9800,
+        "note": "가격 확인 2026-09 (블로그 게시일)"
+      },
+      {
+        "name": "초코바게트",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.blog.naver.com/tableinsight/224425458173",
+        "title": "파인다이닝 비주얼 대전 디저트 카페 '파티시에 소신 대흥점' (네이버 블로그, 2026-09-29)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/doongdoongionetwo/224414030668",
+        "title": "[파티세리 소신 대흥점] (네이버 블로그, 2026-09-16)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/PostView.naver?blogId=qlrtmwjdfpdh4&logNo=224242778226",
+        "title": "대전 중앙로 빵집 리스트 투어 베이커리 추천 4곳 (네이버 블로그, 2026-04-06)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "꾸드뱅베이커스하우스",
+      "address": "대전 서구 둔산남로9번길 71"
+    },
+    "name": "꾸드뱅베이커스하우스",
+    "category": "bakery",
+    "franchise": null,
+    "district": "서구",
+    "address": "대전 서구 둔산남로9번길 71 (1층)",
+    "phone": "0507-1459-3033",
+    "instagram": "https://www.instagram.com/que_de_pain/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:30"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "에그타르트",
+        "price": 4300,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.21)"
+      },
+      {
+        "name": "피스타치오리본크로와상",
+        "price": 5700,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.21)"
+      },
+      {
+        "name": "크림브륄레 페스츄리",
+        "price": 5700,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.21)"
+      },
+      {
+        "name": "치즈모찌",
+        "price": 2800,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.21)"
+      },
+      {
+        "name": "망고포레스트1호",
+        "price": 45000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.21)"
+      }
+    ],
+    "photos": [],
+    "lat": 36.3506475,
+    "lng": 127.379855,
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1280150589/home",
+        "title": "네이버 플레이스 - 꾸드뱅베이커스하우스",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1280150589/menu/list",
+        "title": "네이버 플레이스 - 꾸드뱅베이커스하우스 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/traveler018/224458060229",
+        "title": "네이버 블로그 대충 열심히 살자 - 대전 둔산동 꾸드뱅베이커스하우스 현지인 시리즈(2) (2026-10-29)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "뮤트",
+      "address": "대전 서구 도솔로 455"
+    },
+    "name": "뮤트",
+    "category": "frozen",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 도솔로 455 (1층)",
+    "phone": "0507-1333-6746",
+    "instagram": "https://www.instagram.com/mute.gelateria/",
+    "website": null,
+    "hours": {
+      "mon": null,
+      "wed": {
+        "open": "12:00",
+        "close": "21:00",
+        "lastOrder": "20:50"
+      },
+      "thu": {
+        "open": "12:00",
+        "close": "21:00",
+        "lastOrder": "20:50"
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "22:00",
+        "lastOrder": "21:50"
+      },
+      "sat": {
+        "open": "12:00",
+        "close": "22:00",
+        "lastOrder": "21:50"
+      },
+      "sun": {
+        "open": "12:00",
+        "close": "22:00",
+        "lastOrder": "21:50"
+      }
+    },
+    "holidayNote": "매주 월요일 휴무",
+    "products": [
+      {
+        "name": "젤라또 컵(2가지 맛)",
+        "price": 6000,
+        "note": "가격 확인 2026-09 (블로그 게시일)"
+      },
+      {
+        "name": "소금우유 젤라또",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "사과당근 소르베",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "lat": 36.3439371,
+    "lng": 127.3947463,
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1323549755/home",
+        "title": "네이버 플레이스 - 뮤트",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/PostView.naver?blogId=kocgt7&logNo=224417396843",
+        "title": "네이버 블로그 내가 경험한 모든것을 리뷰 - 대전 젤라또 맛집 뮤트 젤라떼리아 아이스크림 후기 (2026-09-20)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "미미제과점",
+      "address": "대전 서구 갈마역로25번길 17-7"
+    },
+    "name": "미미제과점",
+    "category": "dessert",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 갈마역로25번길 17-7 (1층 상가)",
+    "phone": "0507-1309-5126",
+    "instagram": "https://www.instagram.com/mimi.dessert/",
+    "website": "https://m.smartstore.naver.com/mimidessert",
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "17:30",
+        "lastOrder": "17:00"
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "17:30",
+        "lastOrder": "17:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "17:30",
+        "lastOrder": "17:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "17:30",
+        "lastOrder": "17:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "17:30",
+        "lastOrder": "17:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "17:30",
+        "lastOrder": "17:00"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "17:30",
+        "lastOrder": "17:00"
+      }
+    },
+    "holidayNote": "당일 디저트 소진 시 조기마감",
+    "products": [
+      {
+        "name": "프레첼소금빵",
+        "price": 3500,
+        "note": "가격 확인 2026-10 (블로그 게시일, 매장 구매가)"
+      },
+      {
+        "name": "두바이 버터떡",
+        "price": 4000,
+        "note": "가격 확인 2026-10 (블로그 게시일, 매장 구매가)"
+      },
+      {
+        "name": "두바이쫀득쿠키",
+        "price": 4500,
+        "note": "가격 확인 2026-10 (블로그 게시일, 매장 구매가)"
+      },
+      {
+        "name": "고구마쿠키",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "밀크버터쿠키(밀버쿠)",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "lat": 36.3524847,
+    "lng": 127.3731882,
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1581061557/home",
+        "title": "네이버 플레이스 - 미미제과점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/cc5763/224449168159",
+        "title": "네이버 블로그 오늘의 소확행 - 대전 빵지순례 코스 갈마동 디저트 맛집 미미제과점 (2026-10-21)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1581061557/menu/list",
+        "title": "네이버 플레이스 - 미미제과점 메뉴",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "lic-3660000-121-2000-00049",
+    "match": {
+      "name": "성심당 롯데백화점 대전점",
+      "address": "대전 서구 계룡로 598"
+    },
+    "name": "성심당 롯데백화점 대전점",
+    "category": "bakery",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 계룡로 598 (롯데백화점 대전점 1층)",
+    "lat": 36.340241,
+    "lng": 127.3899924,
+    "phone": "1588-8069",
+    "instagram": "https://www.instagram.com/sungsimdang_lotte/",
+    "website": "https://www.sungsimdang.co.kr/",
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": "연중무휴 (B1 옛맛솜씨·리틀키친은 월~목 08:00~20:00, 금~일 08:00~20:30)",
+    "products": [
+      {
+        "name": "튀김소보로",
+        "price": 1700,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.05)"
+      },
+      {
+        "name": "판타롱부추빵",
+        "price": 2000,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.05)"
+      },
+      {
+        "name": "야끼소바빵",
+        "price": 4000,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.05)"
+      },
+      {
+        "name": "소금빵",
+        "price": 1500,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.05)"
+      },
+      {
+        "name": "피스타치오바게트",
+        "price": 4000,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.05)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.sungsimdang.co.kr/31/18",
+        "title": "성심당 공식 홈페이지 브랜드 소개 - 성심당 롯데백화점 대전점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1170663310/home",
+        "title": "네이버 플레이스 성심당 롯데백화점 대전점 (홈)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1170663310/menu/list",
+        "title": "네이버 플레이스 성심당 롯데백화점 대전점 (메뉴)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "lic-3660000-121-2025-00014",
+    "match": {
+      "name": "성심당 케익부띠끄 롯데백화점 대전점",
+      "address": "대전 서구 계룡로 598"
+    },
+    "name": "성심당 케익부띠끄 롯데백화점 대전점",
+    "category": "dessert",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 계룡로 598",
+    "lat": 36.3403103,
+    "lng": 127.3899161,
+    "phone": "1588-8069",
+    "instagram": "https://www.instagram.com/sungsimdang_lotte/",
+    "website": "https://www.sungsimdang.co.kr/",
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": "연중무휴",
+    "products": [],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.sungsimdang.co.kr/31/33",
+        "title": "성심당 공식 홈페이지 브랜드 소개 - 성심당 케익부띠끄 롯데백화점 대전점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/2146740112/home",
+        "title": "네이버 플레이스 성심당 케익부띠끄 롯데백화점 대전점 (홈)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "손수베이커리",
+      "address": "대전 서구 관저동로 42"
+    },
+    "name": "손수베이커리",
+    "category": "bakery",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 관저동로 42 (느리울마을아파트 13단지 주상가동 104호)",
+    "phone": "0507-1330-5696",
+    "instagram": "https://www.instagram.com/sonsu_bakery_official/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": "휴무 없음",
+    "products": [
+      {
+        "name": "뽀또황치즈맘모스",
+        "price": 7000,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.28)"
+      },
+      {
+        "name": "초코퍼지맘모스",
+        "price": 9000,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.28)"
+      },
+      {
+        "name": "땅콩버터맘모스",
+        "price": 7000,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.28)"
+      },
+      {
+        "name": "소금이(소금빵)",
+        "price": 2500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.28)"
+      },
+      {
+        "name": "통밀크로와상",
+        "price": 3800,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.28)"
+      }
+    ],
+    "photos": [],
+    "lat": 36.2959818,
+    "lng": 127.3406649,
+    "sources": [
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=02&menuSeq=7833",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집(서구의 빵)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1379484249/home",
+        "title": "네이버 플레이스 - 손수베이커리",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1379484249/menu/list",
+        "title": "네이버 플레이스 - 손수베이커리 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/PostView.naver?blogId=danbee1012&logNo=224461039114",
+        "title": "네이버 블로그 좋은 밤 좋은 꿈 - 대전 관저동 카페 빵집 손수베이커리 (2026-11-01)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "시오네베이크샵",
+      "address": "대전 서구 남선로9번길 47-3"
+    },
+    "name": "시오네베이크샵",
+    "category": "bakery",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 남선로9번길 47-3 (1층)",
+    "phone": "0507-1360-7425",
+    "instagram": "https://www.instagram.com/sione_bake.shop/",
+    "website": "https://sione.pages.dev/",
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": null,
+      "thu": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "18:00"
+      }
+    },
+    "holidayNote": "매주 월·화·수요일 휴무, 제품 소진 시 조기마감",
+    "products": [
+      {
+        "name": "소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "꿀버터소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "에그타르트",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "모찌빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "휘낭시에",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://sione.pages.dev/",
+        "title": "시오네 베이크샵 공식 홈페이지",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=02&menuSeq=7833",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집(서구의 빵)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": null
+  },
+  {
+    "match": {
+      "name": "연이가 베이크샵",
+      "address": "대전 서구 둔산남로175번길 10"
+    },
+    "name": "연이가 베이크샵",
+    "category": "dessert",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 둔산남로175번길 10 (102호)",
+    "phone": "0507-1386-1278",
+    "instagram": "https://www.instagram.com/yeoniga.bake/",
+    "website": "https://smartstore.naver.com/yeoniga_bake",
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "sun": null
+    },
+    "holidayNote": "매주 일요일 휴무 (일요일은 답례품·단체주문만 가능)",
+    "products": [
+      {
+        "name": "꿀고구마휘낭시에",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "에그타르트",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "티라미수마들렌",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "두바이초콜릿 휘낭시에",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.daejeon.go.kr/fod/ContentsHtmlView.do?menuSeq=7834",
+        "title": "대전광역시 대전의 맛 - 시민추천 빵집 best5",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.threads.com/@yeoniga.bake",
+        "title": "연이가 베이크샵 공식 Threads 프로필 (@yeoniga.bake)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=MwqTk9nGt1df",
+        "title": "다이닝코드 - 연이가 베이크샵",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "원주율",
+      "address": "대전 서구 도솔로 461"
+    },
+    "name": "원주율",
+    "category": "dessert",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 도솔로 461 (1층)",
+    "phone": "0507-1375-3622",
+    "instagram": "https://www.instagram.com/wonjuyul.pie.shop/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "sun": null
+    },
+    "holidayNote": "매주 일요일 정기휴무, 파이 소진 시 마감",
+    "products": [
+      {
+        "name": "펌킨파이",
+        "price": 5300,
+        "note": "가격 확인 2026-07 (네이버 플레이스 메뉴 업데이트 26.07.28)"
+      },
+      {
+        "name": "호두피칸파이",
+        "price": 5300,
+        "note": "가격 확인 2026-07 (네이버 플레이스 메뉴 업데이트 26.07.28)"
+      },
+      {
+        "name": "초콜릿파이",
+        "price": 5300,
+        "note": "가격 확인 2026-07 (네이버 플레이스 메뉴 업데이트 26.07.28)"
+      },
+      {
+        "name": "에그파이",
+        "price": 4200,
+        "note": "가격 확인 2026-07 (네이버 플레이스 메뉴 업데이트 26.07.28)"
+      }
+    ],
+    "photos": [],
+    "lat": 36.3436904,
+    "lng": 127.3954039,
+    "sources": [
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=02&menuSeq=7833",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집(서구의 빵)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1324779514/home",
+        "title": "네이버 플레이스 - 원주율",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1324779514/menu/list",
+        "title": "네이버 플레이스 - 원주율 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/PostView.naver?blogId=e_lo9&logNo=224305818483",
+        "title": "네이버 블로그 today_hyunny - 대전 파이맛집 찾았다! 탄방동카페 원주율 솔직후기 (2026-06-04)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://eunminlog.site/dining/cafe/daejeon-wonjuyul-cafe-review",
+        "title": "은민로그 - 대전 카페 원주율 후기 (2026-09-30)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "젤라떼리아 돌체루지아",
+      "address": "대전 서구 탄방로 26"
+    },
+    "name": "젤라떼리아 돌체루지아",
+    "category": "frozen",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 탄방로 26 (수팰리스 1층 103호)",
+    "phone": "0507-1448-1258",
+    "instagram": "https://www.instagram.com/dolcerugia/",
+    "website": null,
+    "hours": {
+      "tue": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "wed": null,
+      "thu": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "12:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "12:00",
+        "close": "21:00"
+      }
+    },
+    "holidayNote": "매주 수요일 정기휴무",
+    "products": [
+      {
+        "name": "젤라또 한 컵(2가지 맛)",
+        "price": 4900,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.12)"
+      },
+      {
+        "name": "젤라또 팥빙수",
+        "price": 15900,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.12)"
+      },
+      {
+        "name": "아포가토",
+        "price": 5800,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.12)"
+      },
+      {
+        "name": "돌체 브리오슈",
+        "price": 3500,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.12)"
+      }
+    ],
+    "photos": [],
+    "lat": 36.344495,
+    "lng": 127.3901407,
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1217295168/home",
+        "title": "네이버 플레이스 - 젤라떼리아 돌체루지아",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1217295168/menu/list",
+        "title": "네이버 플레이스 - 젤라떼리아 돌체루지아 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/kiki_rena/224448143720",
+        "title": "네이버 블로그 하하호호 레나 - 대전젤라또 맛집 젤라떼리아 돌체루지아에서 찾은 인생 젤라또 (2026-10-20)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "캘리포니아 베이커리&카페 둔산본점",
+      "address": "대전 서구 둔산남로91번길 13"
+    },
+    "name": "캘리포니아 베이커리&카페 둔산본점",
+    "category": "bakery",
+    "franchise": null,
+    "district": "서구",
+    "address": "대전 서구 둔산남로91번길 13 (1층, 2층)",
+    "phone": "0507-1414-8871",
+    "instagram": "https://www.instagram.com/california__bakery/",
+    "website": "https://blog.naver.com/cali2017cafe",
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "23:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": "연중무휴 (명절 단축영업)",
+    "products": [
+      {
+        "name": "우유퐁당카스테라",
+        "price": 12000,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.02)"
+      },
+      {
+        "name": "243겹 후렌치파이",
+        "price": 12000,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.02)"
+      },
+      {
+        "name": "겉바속촉 소금빵",
+        "price": 3300,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.02)"
+      },
+      {
+        "name": "우유식빵",
+        "price": 5800,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.02)"
+      },
+      {
+        "name": "캘리허니(케이크)",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "lat": 36.3496297,
+    "lng": 127.3875026,
+    "sources": [
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=02&menuSeq=7833",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집(서구의 빵)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/34624733/home",
+        "title": "네이버 플레이스 - 캘리포니아 베이커리&카페 둔산본점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/34624733/menu/list",
+        "title": "네이버 플레이스 - 캘리포니아 베이커리&카페 둔산본점 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/tq2267/224432171271",
+        "title": "네이버 블로그 웰컴해피미미 - 대전 둔산동 캘리포니아 베이커리&카페 둔산본점 (2026-10-05)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "크리스피크림도넛 대전둔산점",
+      "address": "대전 서구 둔산중로 46"
+    },
+    "name": "크리스피크림도넛 대전둔산점",
+    "category": "frozen",
+    "franchise": true,
+    "district": "서구",
+    "address": "대전 서구 둔산중로 46 (1층)",
+    "phone": "042-488-4381",
+    "instagram": null,
+    "website": "https://www.lotteeatz.com/eatzMain",
+    "hours": {
+      "mon": {
+        "open": "06:00",
+        "close": "00:00"
+      },
+      "tue": {
+        "open": "06:00",
+        "close": "00:00"
+      },
+      "wed": {
+        "open": "06:00",
+        "close": "00:00"
+      },
+      "thu": {
+        "open": "06:00",
+        "close": "00:00"
+      },
+      "fri": {
+        "open": "06:00",
+        "close": "00:00"
+      },
+      "sat": {
+        "open": "06:00",
+        "close": "00:00"
+      },
+      "sun": {
+        "open": "06:00",
+        "close": "00:00"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "오리지널 글레이즈드",
+        "price": 1800,
+        "note": "가격 확인 2026-10 (블로그 게시일)"
+      },
+      {
+        "name": "오리지널 우유크림 필드",
+        "price": 2000,
+        "note": "가격 확인 2026-10 (블로그 게시일)"
+      }
+    ],
+    "photos": [],
+    "lat": 36.3506542,
+    "lng": 127.3870216,
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/12806243/home",
+        "title": "네이버 플레이스 - 크리스피크림도넛 대전둔산점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/PostView.naver?blogId=oha9577&logNo=224451759683",
+        "title": "네이버 블로그 두냥이 집사의 일상기록 - 크리스피크림도넛 대전둔산점 오리지널 우유크림 필드도넛 후기 (2026-10-23)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "플래닛에그타르트",
+      "address": "대전 서구 갈마역로25번길 21"
+    },
+    "name": "플래닛에그타르트",
+    "category": "dessert",
+    "franchise": false,
+    "district": "서구",
+    "address": "대전 서구 갈마역로25번길 21 (1층)",
+    "phone": "0507-1386-2547",
+    "instagram": "https://www.instagram.com/planet_egg_tarte/",
+    "website": "http://pf.kakao.com/_AIrLG",
+    "hours": {
+      "mon": null,
+      "wed": {
+        "open": "10:30",
+        "close": "17:00"
+      },
+      "thu": {
+        "open": "10:30",
+        "close": "17:00"
+      },
+      "fri": {
+        "open": "10:30",
+        "close": "17:00"
+      },
+      "sat": {
+        "open": "10:30",
+        "close": "17:00"
+      },
+      "sun": {
+        "open": "10:30",
+        "close": "16:00"
+      }
+    },
+    "holidayNote": "매주 월요일 휴무, 품절 시 조기마감",
+    "products": [
+      {
+        "name": "에그타르트A 홍콩",
+        "price": 3000,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.05)"
+      },
+      {
+        "name": "에그타르트B 바닐라",
+        "price": 3300,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.05)"
+      },
+      {
+        "name": "에그타르트C 시나몬",
+        "price": 3000,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.05)"
+      },
+      {
+        "name": "에그타르트D 라즈베리",
+        "price": 3500,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.05)"
+      },
+      {
+        "name": "에그타르트E 블루베리",
+        "price": 3500,
+        "note": "가격 확인 2026-11 (네이버 플레이스 메뉴 업데이트 26.11.05)"
+      }
+    ],
+    "photos": [],
+    "lat": 36.352733,
+    "lng": 127.3730621,
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1940154074/home",
+        "title": "네이버 플레이스 - 플래닛에그타르트",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1940154074/menu/list",
+        "title": "네이버 플레이스 - 플래닛에그타르트 메뉴",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/shineworlddd/224437506427",
+        "title": "네이버 블로그 여행만 다니고 싶은 사람 - 대전 빵지순례 플래닛에그타르트 몽심 케이크샵 마들렌 후기 (2026-10-10)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=02&menuSeq=7833",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집(서구의 빵)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "하레하레 둔산점",
+      "address": "대전 서구 둔산로 155"
+    },
+    "name": "하레하레 둔산점",
+    "category": "bakery",
+    "franchise": null,
+    "district": "서구",
+    "address": "대전 서구 둔산로 155 (크로바아파트 제상가동 1층)",
+    "phone": "0507-1424-1595",
+    "instagram": "https://www.instagram.com/harehare_official/",
+    "website": "https://blog.naver.com/hare-hare",
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "21:00"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "쌀하레치즈",
+        "price": 6500,
+        "note": "가격 확인 2026-04 (네이버 플레이스 메뉴 업데이트 26.04.15)"
+      },
+      {
+        "name": "마시멜로우 속 갸또",
+        "price": 3800,
+        "note": "가격 확인 2026-04 (네이버 플레이스 메뉴 업데이트 26.04.15)"
+      },
+      {
+        "name": "쪽파프리글",
+        "price": 4600,
+        "note": "가격 확인 2026-04 (네이버 플레이스 메뉴 업데이트 26.04.15)"
+      },
+      {
+        "name": "단짠양파빵",
+        "price": 5200,
+        "note": "가격 확인 2026-04 (네이버 플레이스 메뉴 업데이트 26.04.15)"
+      },
+      {
+        "name": "소금빵",
+        "price": 2100,
+        "note": "가격 확인 2026-04 (네이버 플레이스 메뉴 업데이트 26.04.15)"
+      },
+      {
+        "name": "국산쌀 명장팥빵",
+        "price": 3200,
+        "note": "가격 확인 2026-04 (네이버 플레이스 메뉴 업데이트 26.04.15)"
+      }
+    ],
+    "photos": [],
+    "lat": 36.351457,
+    "lng": 127.3949666,
+    "sources": [
+      {
+        "url": "https://www.daejeon.go.kr/fod/ContentsHtmlView.do?menuSeq=7834",
+        "title": "대전광역시 대전의 맛 - 시민추천 빵집 best5",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/37883270/home",
+        "title": "네이버 플레이스 - 하레하레 둔산점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/37883270/menu/list",
+        "title": "네이버 플레이스 - 하레하레 둔산점 메뉴",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "그린베이커리",
+      "address": "대전 유성구 테크노4로 80-7"
+    },
+    "name": "그린베이커리",
+    "category": "bakery",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 테크노4로 80-7 (1층 101호)",
+    "phone": "0507-1313-3497",
+    "instagram": "https://www.instagram.com/bbangho1/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "19:00",
+        "lastOrder": "17:30"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "19:00",
+        "lastOrder": "17:30"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "19:00",
+        "lastOrder": "17:30"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "19:00",
+        "lastOrder": "17:30"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "19:00",
+        "lastOrder": "17:30"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "19:00",
+        "lastOrder": "17:30"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "19:00",
+        "lastOrder": "17:30"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "에그타르트",
+        "price": 3500,
+        "note": "가격 확인 2026-08 (네이버 플레이스 메뉴 업데이트 26.08.22)"
+      },
+      {
+        "name": "쏙쏙이",
+        "price": 6800,
+        "note": "가격 확인 2026-08 (네이버 플레이스 메뉴 업데이트 26.08.22)"
+      },
+      {
+        "name": "딸기쏙쏙이",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "연어샌드위치",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1647681527/home",
+        "title": "네이버 플레이스 - 그린베이커리",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1647681527/menu/list",
+        "title": "네이버 플레이스 메뉴 - 그린베이커리",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=04&menuSeq=7833&pageIndex=3",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집 (유성구의 빵) 3페이지",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.socar.kr/blog/socar-travel-daejeon-bread-tour",
+        "title": "쏘카 블로그 - 대전 빵투어 코스, 현지인이 딱 세 곳만 추천합니다 (2026-07-08)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.4278564,
+    "lng": 127.3895742
+  },
+  {
+    "match": {
+      "name": "꾸드뱅",
+      "address": "대전 유성구 지족동로 146"
+    },
+    "name": "꾸드뱅",
+    "category": "bakery",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 지족동로 146 (1,2층)",
+    "phone": "0507-1493-3033",
+    "instagram": "https://www.instagram.com/que_de_pain/",
+    "website": "http://quedepain.com",
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:30"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "에그타르트",
+        "price": 4300,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.21)"
+      },
+      {
+        "name": "망고포레스트",
+        "price": 45000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.21)"
+      },
+      {
+        "name": "피스타치오리본페스츄리",
+        "price": 5700,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.21)"
+      },
+      {
+        "name": "치즈모찌",
+        "price": 2800,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.21)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/37865853/home",
+        "title": "네이버 플레이스 - 꾸드뱅",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/37865853/menu/list",
+        "title": "네이버 플레이스 메뉴 - 꾸드뱅",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=04&menuSeq=7833&pageIndex=3",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집 (유성구의 빵) 3페이지",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3866755,
+    "lng": 127.3087021
+  },
+  {
+    "match": {
+      "name": "노티드 대전신세계점",
+      "address": "대전 유성구 엑스포로 1"
+    },
+    "name": "노티드 대전신세계점",
+    "category": "frozen",
+    "franchise": true,
+    "district": "유성구",
+    "address": "대전 유성구 엑스포로 1 (지하1층 A34호)",
+    "phone": null,
+    "instagram": null,
+    "website": "https://knottedstore.com",
+    "hours": {
+      "mon": {
+        "open": "10:30",
+        "close": "20:00",
+        "lastOrder": "19:30"
+      },
+      "tue": {
+        "open": "10:30",
+        "close": "20:00",
+        "lastOrder": "19:30"
+      },
+      "wed": {
+        "open": "10:30",
+        "close": "20:00",
+        "lastOrder": "19:30"
+      },
+      "thu": {
+        "open": "10:30",
+        "close": "20:00",
+        "lastOrder": "19:30"
+      },
+      "fri": {
+        "open": "10:30",
+        "close": "20:00",
+        "lastOrder": "19:30"
+      },
+      "sat": {
+        "open": "10:30",
+        "close": "20:00",
+        "lastOrder": "19:30"
+      },
+      "sun": {
+        "open": "10:30",
+        "close": "20:00",
+        "lastOrder": "19:30"
+      }
+    },
+    "holidayNote": null,
+    "products": [],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://knottedstore.com/shop_view/?idx=344",
+        "title": "노티드 공식 사이트 - 대전 신세계점",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "달콩수제팥빙수단팥죽",
+      "address": "대전 유성구 계룡로74번길 59"
+    },
+    "name": "달콩수제팥빙수단팥죽",
+    "category": "frozen",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 계룡로74번길 59",
+    "phone": "0507-1306-5619",
+    "instagram": null,
+    "website": null,
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "21:00"
+      }
+    },
+    "holidayNote": "매주 월요일 휴무 (6~9월은 휴무 없이 운영)",
+    "products": [
+      {
+        "name": "팥빙수",
+        "price": 4000,
+        "note": "가격 확인 2025-09 (네이버 플레이스 메뉴 업데이트 25.09.25)"
+      },
+      {
+        "name": "단팥죽",
+        "price": 4000,
+        "note": "가격 확인 2025-09 (네이버 플레이스 메뉴 업데이트 25.09.25)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1439616964/home",
+        "title": "네이버 플레이스 - 달콩수제팥빙수단팥죽",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1439616964/menu/list",
+        "title": "네이버 플레이스 메뉴 - 달콩수제팥빙수단팥죽",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3518554,
+    "lng": 127.3382753
+  },
+  {
+    "match": {
+      "name": "르뺑99-1",
+      "address": "대전 유성구 온천북로33번길 22-3"
+    },
+    "name": "르뺑99-1",
+    "category": "bakery",
+    "franchise": null,
+    "district": "유성구",
+    "address": "대전 유성구 온천북로33번길 22-3 (101호)",
+    "phone": "0507-1416-9914",
+    "instagram": "https://www.instagram.com/le_pain99_1/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "08:30",
+        "close": "23:50",
+        "lastOrder": "23:30"
+      },
+      "tue": {
+        "open": "08:30",
+        "close": "23:50",
+        "lastOrder": "23:30"
+      },
+      "wed": {
+        "open": "08:30",
+        "close": "23:50",
+        "lastOrder": "23:30"
+      },
+      "thu": {
+        "open": "08:30",
+        "close": "23:50",
+        "lastOrder": "23:30"
+      },
+      "fri": {
+        "open": "08:30",
+        "close": "23:50",
+        "lastOrder": "23:30"
+      },
+      "sat": {
+        "open": "08:30",
+        "close": "23:50",
+        "lastOrder": "23:30"
+      },
+      "sun": {
+        "open": "08:30",
+        "close": "23:50",
+        "lastOrder": "23:30"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "크로와상",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "슈렉크루키",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "소라빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "시그니처 사과 케이크",
+        "price": 33000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.18)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/74908381/home",
+        "title": "네이버 플레이스 - 르뺑99-1",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/74908381/menu/list",
+        "title": "네이버 플레이스 메뉴 - 르뺑99-1",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=04&menuSeq=7833&pageIndex=2",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집 (유성구의 빵) 2페이지",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3579354,
+    "lng": 127.3472247
+  },
+  {
+    "match": {
+      "name": "리저트베이크샵",
+      "address": "대전 유성구 노은서로112번길 84"
+    },
+    "name": "리저트베이크샵",
+    "category": "bakery",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 노은서로112번길 84 (1층 101호)",
+    "phone": "0507-1449-1668",
+    "instagram": "https://www.instagram.com/ressert_bake/",
+    "website": "https://blog.naver.com/ressert_bake",
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "12:00",
+        "close": "19:00",
+        "lastOrder": "18:30"
+      },
+      "wed": {
+        "open": "12:00",
+        "close": "19:00",
+        "lastOrder": "18:30"
+      },
+      "thu": {
+        "open": "12:00",
+        "close": "19:00",
+        "lastOrder": "18:30"
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "19:00",
+        "lastOrder": "18:30"
+      },
+      "sun": null
+    },
+    "holidayNote": "매주 일·월요일 휴무, 빵 소진 시 영업 종료",
+    "products": [
+      {
+        "name": "소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "치아바타",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "모찌빵",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1924518027/home",
+        "title": "네이버 플레이스 - 리저트베이크샵",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=04&menuSeq=7833&pageIndex=2",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집 (유성구의 빵) 2페이지",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://rss.blog.naver.com/ressert_bake.xml",
+        "title": "리저트베이크샵 공식 네이버 블로그 (ressert_bake) RSS - 영업시간 휴무일 안내 (2024-04-22)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.371861,
+    "lng": 127.3173904
+  },
+  {
+    "match": {
+      "name": "마들렌과자점",
+      "address": "대전 유성구 은구비서로23번길 9"
+    },
+    "name": "마들렌과자점",
+    "category": "dessert",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 은구비서로23번길 9",
+    "phone": "0507-1382-1948",
+    "instagram": "https://www.instagram.com/madeleine_bakery_daejeon/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "10:00",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "바나나마들렌",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "갸토시트롱",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "미니 마들렌 세트",
+        "price": 7800,
+        "note": "가격 확인 2026-02 (네이버 플레이스 메뉴 업데이트 26.02.06)"
+      },
+      {
+        "name": "빨미에",
+        "price": 4800,
+        "note": "가격 확인 2026-02 (네이버 플레이스 메뉴 업데이트 26.02.06)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/10965816/home",
+        "title": "네이버 플레이스 - 마들렌과자점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/10965816/menu/list",
+        "title": "네이버 플레이스 메뉴 - 마들렌과자점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=04&menuSeq=7833&pageIndex=2",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집 (유성구의 빵) 2페이지",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3742002,
+    "lng": 127.3201799
+  },
+  {
+    "match": {
+      "name": "성심당 DCC점",
+      "address": "대전 유성구 엑스포로 107"
+    },
+    "name": "성심당 DCC점",
+    "category": "bakery",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 엑스포로 107 (대전컨벤션센터 1층)",
+    "lat": 36.3752845,
+    "lng": 127.3922447,
+    "phone": "1588-8069",
+    "instagram": "https://www.instagram.com/sungsimdang_dcc/",
+    "website": "https://www.sungsimdang.co.kr/",
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": "연중무휴 (1층 카페 08:00~21:00, 2층 08:00~20:00 별도 운영)",
+    "products": [
+      {
+        "name": "명란바게트",
+        "price": 3800,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "보문산메아리",
+        "price": 6000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "튀소세트",
+        "price": 10000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "순수롤",
+        "price": 14000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      },
+      {
+        "name": "순수마들렌 2호(10개입)",
+        "price": 12000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.23)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.sungsimdang.co.kr/31/17",
+        "title": "성심당 공식 홈페이지 브랜드 소개 - 성심당 DCC점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1977855888/home",
+        "title": "네이버 플레이스 성심당 DCC점 (홈)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1977855888/menu/list",
+        "title": "네이버 플레이스 성심당 DCC점 (메뉴)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "id": "lic-3670000-121-2024-00038",
+    "match": {
+      "name": "성심당 튀소정거장",
+      "address": "대전 유성구 엑스포로123번길 27-22"
+    },
+    "name": "성심당 튀소정거장",
+    "category": "bakery",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 엑스포로123번길 27-22",
+    "lat": 36.375875,
+    "lng": 127.3923523,
+    "phone": "1588-8069",
+    "instagram": "https://www.instagram.com/sungsimdang_twisostation/",
+    "website": "https://www.sungsimdang.co.kr/",
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "20:00"
+      }
+    },
+    "holidayNote": "연중무휴",
+    "products": [
+      {
+        "name": "튀김소보로",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.sungsimdang.co.kr/31/32",
+        "title": "성심당 공식 홈페이지 브랜드 소개 - 튀소정거장",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1737363178/home",
+        "title": "네이버 플레이스 성심당 튀소정거장 (홈)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "연선흠베이커리카페",
+      "address": "대전 유성구 지족로148번길 39-23"
+    },
+    "name": "연선흠베이커리카페",
+    "category": "bakery",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 지족로148번길 39-23",
+    "phone": "042-823-0094",
+    "instagram": "https://www.instagram.com/yshbakery/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "21:30"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "21:30"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "고구마 브리오쉬",
+        "price": 8700,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.20)"
+      },
+      {
+        "name": "화이트롤",
+        "price": 7000,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.20)"
+      },
+      {
+        "name": "시오빵(소금빵)",
+        "price": 3500,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.20)"
+      },
+      {
+        "name": "맘모스 빵",
+        "price": 6800,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.20)"
+      },
+      {
+        "name": "쌀하프소금빵",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/38275934/home",
+        "title": "네이버 플레이스 - 연선흠베이커리카페",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/38275934/menu/list",
+        "title": "네이버 플레이스 메뉴 - 연선흠베이커리카페",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=04&menuSeq=7833&pageIndex=3",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집 (유성구의 빵) 3페이지",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3785474,
+    "lng": 127.3053508
+  },
+  {
+    "match": {
+      "name": "젤라떼리아 카리타",
+      "address": "대전 유성구 봉명서로 17-9"
+    },
+    "name": "젤라떼리아 카리타",
+    "category": "frozen",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 봉명서로 17-9",
+    "phone": "0507-1364-2759",
+    "instagram": "https://www.instagram.com/carita_gelateria/",
+    "website": null,
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "12:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "12:00",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": "매주 월요일 휴무",
+    "products": [
+      {
+        "name": "Cup (2가지맛)",
+        "price": 5000,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.04)"
+      },
+      {
+        "name": "Cone (2가지맛)",
+        "price": 6000,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.04)"
+      },
+      {
+        "name": "Small 420ml 포장 (3가지맛)",
+        "price": 16000,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.04)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1779982091/home",
+        "title": "네이버 플레이스 - 젤라떼리아 카리타",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1779982091/menu/list",
+        "title": "네이버 플레이스 메뉴 - 젤라떼리아 카리타",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=yzgpByKIANa2",
+        "title": "다이닝코드 - 젤라떼리아 카리타",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3439863,
+    "lng": 127.3411652
+  },
+  {
+    "match": {
+      "name": "파셀",
+      "address": "대전 유성구 죽동로298번길 11"
+    },
+    "name": "파셀",
+    "category": "bakery",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 죽동로298번길 11 (1층 101호)",
+    "phone": "0507-1436-0801",
+    "instagram": "https://www.instagram.com/parcel_bakery/",
+    "website": null,
+    "hours": {
+      "mon": null,
+      "tue": null,
+      "wed": {
+        "open": "09:00",
+        "close": "16:30"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "16:30"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "16:30"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "16:30"
+      },
+      "sun": null
+    },
+    "holidayNote": "매주 일·월·화요일 휴무, 빵 소진 시 인스타그램 스토리 공지 후 마감",
+    "products": [
+      {
+        "name": "사워도우",
+        "price": 6500,
+        "note": "가격 확인 2025-11 (네이버 플레이스 메뉴 업데이트 25.11.17)"
+      },
+      {
+        "name": "바게트",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "포카치아",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1848468309/home",
+        "title": "네이버 플레이스 - 파셀",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1848468309/menu/list",
+        "title": "네이버 플레이스 메뉴 - 파셀",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=04&menuSeq=7833&pageIndex=2",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집 (유성구의 빵) 2페이지",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3699049,
+    "lng": 127.3374459
+  },
+  {
+    "match": {
+      "name": "파이룸",
+      "address": "대전 유성구 대학로 39-10"
+    },
+    "name": "파이룸",
+    "category": "dessert",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 대학로 39-10 (103호)",
+    "phone": "0507-1385-5011",
+    "instagram": "https://www.instagram.com/pie_room/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "tue": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "wed": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "thu": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "fri": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "sat": {
+        "open": "09:00",
+        "close": "20:00"
+      },
+      "sun": {
+        "open": "09:00",
+        "close": "20:00"
+      }
+    },
+    "holidayNote": "2026-11-12~11-13 임시휴무 (네이버 플레이스 공지)",
+    "products": [
+      {
+        "name": "에그파이",
+        "price": 4800,
+        "note": "가격 확인 2026-07 (네이버 플레이스 메뉴 업데이트 26.07.15)"
+      },
+      {
+        "name": "레몬 마들렌",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "무화과 추러스 휘낭시에",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "크로와상",
+        "price": 3500,
+        "note": "가격 확인 2026-07 (네이버 플레이스 메뉴 업데이트 26.07.15)"
+      },
+      {
+        "name": "소금빵",
+        "price": 2600,
+        "note": "가격 확인 2026-07 (네이버 플레이스 메뉴 업데이트 26.07.15)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1298176168/home",
+        "title": "네이버 플레이스 - 파이룸",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1298176168/menu/list",
+        "title": "네이버 플레이스 메뉴 - 파이룸",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=04&menuSeq=7833&pageIndex=3",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집 (유성구의 빵) 3페이지",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3576579,
+    "lng": 127.3425522
+  },
+  {
+    "match": {
+      "name": "파티세리소신",
+      "address": "대전 유성구 농대로15번길 7"
+    },
+    "name": "파티세리소신",
+    "category": "dessert",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 농대로15번길 7 (1층)",
+    "phone": null,
+    "instagram": "https://www.instagram.com/patisserie_sosin/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "11:30",
+        "close": "21:50"
+      },
+      "tue": {
+        "open": "11:30",
+        "close": "21:50"
+      },
+      "wed": {
+        "open": "11:30",
+        "close": "21:50"
+      },
+      "thu": {
+        "open": "11:30",
+        "close": "21:50"
+      },
+      "fri": {
+        "open": "11:30",
+        "close": "21:50"
+      },
+      "sat": {
+        "open": "11:30",
+        "close": "21:50"
+      },
+      "sun": {
+        "open": "11:30",
+        "close": "21:50"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "너를 생각하는 꿈돌이",
+        "price": 10500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.29)"
+      },
+      {
+        "name": "유자타르트",
+        "price": 8700,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.29)"
+      },
+      {
+        "name": "구운 피스타치오",
+        "price": 9500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.29)"
+      },
+      {
+        "name": "녹차꽃",
+        "price": 8800,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.29)"
+      },
+      {
+        "name": "바닐라플랑",
+        "price": 3800,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.29)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1510274841/home",
+        "title": "네이버 플레이스 - 파티세리소신",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1510274841/menu/list",
+        "title": "네이버 플레이스 메뉴 - 파티세리소신",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendList.do?colmn1Cont=04&menuSeq=7833&pageIndex=2",
+        "title": "대전광역시 대전의 맛 - 2025 빵산책 in 대전 시민추천 빵집 (유성구의 빵) 2페이지",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3616385,
+    "lng": 127.3526755
+  },
+  {
+    "match": {
+      "name": "프랜즈도넛",
+      "address": "대전 유성구 대학로163번길 17"
+    },
+    "name": "프랜즈도넛",
+    "category": "frozen",
+    "franchise": false,
+    "district": "유성구",
+    "address": "대전 유성구 대학로163번길 17 (지상1층)",
+    "phone": "0507-1431-2878",
+    "instagram": "https://www.instagram.com/frienz_donut/",
+    "website": null,
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "19:00"
+      }
+    },
+    "holidayNote": "매주 월요일 휴무",
+    "products": [
+      {
+        "name": "두바이초코도넛",
+        "price": 8500,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.14)"
+      },
+      {
+        "name": "글레이즈드",
+        "price": 2900,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.14)"
+      },
+      {
+        "name": "우유크림",
+        "price": 3800,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.14)"
+      },
+      {
+        "name": "콘치즈",
+        "price": 4300,
+        "note": "가격 확인 2026-09 (네이버 플레이스 메뉴 업데이트 26.09.14)"
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/1935414878/home",
+        "title": "네이버 플레이스 - 프랜즈도넛",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1935414878/menu/list",
+        "title": "네이버 플레이스 메뉴 - 프랜즈도넛",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "http://duli.co.kr/web/splus/kmap/view.php?sigun=6300000&gugun=3670000&keyno=154&keyname=%ED%94%84%EB%9E%9C%EC%A6%88%EB%8F%84%EB%84%9B&keylink=3670000-121-2024-00019",
+        "title": "유성구 두리찾기(로컬맵) - 프랜즈도넛 (행정안전부 인허가 데이터)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3611771,
+    "lng": 127.3514593
+  },
+  {
+    "match": {
+      "name": "한스브로트 노은점",
+      "address": "대전 유성구 반석서로 17"
+    },
+    "name": "한스브로트 노은점",
+    "category": "bakery",
+    "franchise": null,
+    "district": "유성구",
+    "address": "대전 유성구 반석서로 17",
+    "phone": "042-934-0041",
+    "instagram": null,
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "08:00",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "국진이",
+        "price": 2000,
+        "note": "가격 확인 2026-02 (블로그 게시일 2026-02-23)"
+      },
+      {
+        "name": "치아바타",
+        "price": 3500,
+        "note": "가격 확인 2026-02 (블로그 게시일 2026-02-23)"
+      },
+      {
+        "name": "단팥빵",
+        "price": 1800,
+        "note": "가격 확인 2026-02 (블로그 게시일 2026-02-23)"
+      },
+      {
+        "name": "모찌모찌식빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "곡물식빵",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/37064384/home",
+        "title": "네이버 플레이스 - 한스브로트 노은점",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.blog.naver.com/heeheeheeee/224193158512",
+        "title": "네이버 블로그 히히히의 맛집 기록 - [대전 맛집] 성심당 출신 제과 달인이 운영하는 노은동 빵 맛집, 한스브로트 (2026-02-23)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09",
+    "lat": 36.3891536,
+    "lng": 127.3098315
+  },
+  {
+    "match": {
+      "name": "NTBR",
+      "address": "대전 대덕구 신탄진로36번길 121"
+    },
+    "name": "NTBR",
+    "category": "bakery",
+    "franchise": false,
+    "district": "대덕구",
+    "address": "대전 대덕구 신탄진로36번길 121",
+    "phone": "0507-1347-6737",
+    "instagram": null,
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "10:30",
+        "close": "21:00"
+      },
+      "tue": {
+        "open": "10:30",
+        "close": "21:00"
+      },
+      "wed": {
+        "open": "10:30",
+        "close": "21:00"
+      },
+      "thu": {
+        "open": "10:30",
+        "close": "21:00"
+      },
+      "fri": {
+        "open": "10:30",
+        "close": "21:00"
+      },
+      "sat": {
+        "open": "10:30",
+        "close": "21:00"
+      },
+      "sun": {
+        "open": "10:30",
+        "close": "21:00"
+      }
+    },
+    "holidayNote": "연중무휴",
+    "products": [
+      {
+        "name": "팽오피스타치오베리",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "초코퐁당식빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "하트팝팝",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://ebook.ebooknara.com/2026/1008/files/basic-html/page19.html",
+        "title": "대전의 맛 - 오늘도 대전에서 잘 먹었습니다. (대전광역시 식의약안전과, 2026년 10월) 19페이지 · NTBR",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "가또앤브레드",
+      "address": "대전 대덕구 선비마을로23번길 35"
+    },
+    "name": "가또앤브레드",
+    "category": "bakery",
+    "franchise": false,
+    "district": "대덕구",
+    "address": "대전 대덕구 선비마을로23번길 35",
+    "phone": "042-633-7749",
+    "instagram": null,
+    "website": null,
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": "매주 월요일 휴무",
+    "products": [
+      {
+        "name": "메론빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "고구마찰빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "명인팥빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "마늘크림빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "애플파이",
+        "price": null,
+        "note": null
+      }
+    ],
+    "lat": 36.3641896,
+    "lng": 127.4457062,
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://ebook.ebooknara.com/2026/1008/files/basic-html/page20.html",
+        "title": "대전의 맛 - 오늘도 대전에서 잘 먹었습니다. (대전광역시 식의약안전과, 2026년 10월) 20페이지 · 가또앤브레드",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendView.do?menuSeq=7833&ntatcSeq=1496405679",
+        "title": "대전광역시-대전의 맛 시민추천 빵집(2025 빵산책 in 대전) - 가또앤브레드",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://daejeontour.co.kr/find_djt/9",
+        "title": "[동네 구석구석] 대덕구 송촌동 > 대전의 재발견 | 대전관광 (2026.06.23)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/16042893/home",
+        "title": "가또앤브레드 : 네이버 플레이스",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "늘구움",
+      "address": "대전 대덕구 송촌북로20번길 13-20"
+    },
+    "name": "늘구움",
+    "category": "dessert",
+    "franchise": false,
+    "district": "대덕구",
+    "address": "대전 대덕구 송촌북로20번길 13-20 (1층 102호)",
+    "phone": "0507-1455-9203",
+    "instagram": "https://www.instagram.com/neulguum/",
+    "website": "https://smartstore.naver.com/neulguum",
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "wed": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "19:00"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "19:00"
+      }
+    },
+    "holidayNote": "매주 월요일 휴무 (일요일 휴무 여부는 출처마다 다름)",
+    "products": [
+      {
+        "name": "에그타르트",
+        "price": 4000,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.11)"
+      },
+      {
+        "name": "플레인 휘낭시에",
+        "price": 2800,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.11)"
+      },
+      {
+        "name": "두바이쫀득쿠키",
+        "price": 6000,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.11)"
+      },
+      {
+        "name": "요거트 생과일 모찌",
+        "price": 3500,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.11)"
+      },
+      {
+        "name": "버터바",
+        "price": 3600,
+        "note": "가격 확인 2026-10 (네이버 플레이스 메뉴 업데이트 26.10.11)"
+      }
+    ],
+    "lat": 36.3651074,
+    "lng": 127.4372892,
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://daejeontour.co.kr/find_djt/9",
+        "title": "[동네 구석구석] 대덕구 송촌동 > 대전의 재발견 | 대전관광 (2026.06.23)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1402671421/home",
+        "title": "늘구움 : 네이버 플레이스",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/1402671421/menu/list",
+        "title": "늘구움 메뉴 : 네이버 플레이스",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "리넘",
+      "address": "대전 대덕구 계족로517번길 98"
+    },
+    "name": "리넘",
+    "category": "bakery",
+    "franchise": false,
+    "district": "대덕구",
+    "address": "대전 대덕구 계족로517번길 98 (1층)",
+    "phone": "0507-1307-7319",
+    "instagram": null,
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "tue": null,
+      "wed": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "thu": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "fri": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "sat": {
+        "open": "11:00",
+        "close": "20:30"
+      },
+      "sun": {
+        "open": "11:00",
+        "close": "20:30"
+      }
+    },
+    "holidayNote": "매주 화요일 휴무",
+    "products": [
+      {
+        "name": "블루베리크럼블",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "플레인소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "명란소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "크랙소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "르뱅쿠키",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://ebook.ebooknara.com/2026/1008/files/basic-html/page30.html",
+        "title": "대전의 맛 - 오늘도 대전에서 잘 먹었습니다. (대전광역시 식의약안전과, 2026년 10월) 30페이지 · 리넘",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "보보로베이커리",
+      "address": "대전 대덕구 계족산로81번길 96"
+    },
+    "name": "보보로베이커리",
+    "category": "bakery",
+    "franchise": false,
+    "district": "대덕구",
+    "address": "대전 대덕구 계족산로81번길 96 (1층)",
+    "phone": "042-632-0445",
+    "instagram": "https://www.instagram.com/bovolobakery/",
+    "website": null,
+    "hours": {
+      "mon": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "sun": {
+        "open": "07:30",
+        "close": "22:00"
+      }
+    },
+    "holidayNote": "설·추석 휴무",
+    "products": [
+      {
+        "name": "추억의 햄버거",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "명란소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "두바이소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "어니언바게트",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "폭신폭신몽블랑",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "게랑드소금빵",
+        "price": null,
+        "note": null
+      }
+    ],
+    "lat": 36.3667009,
+    "lng": 127.4372699,
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://ebook.ebooknara.com/2026/1008/files/basic-html/page37.html",
+        "title": "대전의 맛 - 오늘도 대전에서 잘 먹었습니다. (대전광역시 식의약안전과, 2026년 10월) 37페이지 · 보보로베이커리",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendView.do?menuSeq=7833&ntatcSeq=1496401041",
+        "title": "대전광역시-대전의 맛 시민추천 빵집(2025 빵산책 in 대전) - 보보로베이커리",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://daejeontour.co.kr/find_djt/9",
+        "title": "[동네 구석구석] 대덕구 송촌동 > 대전의 재발견 | 대전관광 (2026.06.23)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/37249350/home",
+        "title": "보보로베이커리 : 네이버 플레이스",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "설빙 대전송촌점",
+      "address": "대전 대덕구 동춘당로 115"
+    },
+    "name": "설빙 대전송촌점",
+    "category": "frozen",
+    "franchise": true,
+    "district": "대덕구",
+    "address": "대전 대덕구 동춘당로 115 (2층)",
+    "phone": "042-632-7911",
+    "instagram": null,
+    "website": null,
+    "hours": null,
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "허쉬초코크런치설빙",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "순수요거꿀자몽설빙",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "오레오치즈떠먹케설빙",
+        "price": null,
+        "note": null
+      }
+    ],
+    "lat": 36.3664279,
+    "lng": 127.4376528,
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://m.place.naver.com/restaurant/36655675/home",
+        "title": "설빙 대전송촌점 : 네이버 플레이스",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/36655675/menu/list",
+        "title": "설빙 대전송촌점 메뉴 : 네이버 플레이스",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": null
+  },
+  {
+    "match": {
+      "name": "설빙 대전신탄진점",
+      "address": "대전 대덕구 대청로 12"
+    },
+    "name": "설빙 대전신탄진점",
+    "category": "frozen",
+    "franchise": true,
+    "district": "대덕구",
+    "address": "대전 대덕구 대청로 12 (202호)",
+    "phone": "0507-1432-4515",
+    "instagram": null,
+    "website": null,
+    "hours": null,
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "인절미설빙",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "애플망고치즈설빙",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "허쉬초코크런치설빙",
+        "price": null,
+        "note": null
+      }
+    ],
+    "lat": 36.4512041,
+    "lng": 127.4300295,
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.diningcode.com/profile.php?rid=IAYIWRKIf37S",
+        "title": "설빙 대전신탄진점 - 다이닝코드",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.map.naver.com/search/interest-spot?searchCoord=36.4520203%3B127.4290224&type=CAFE",
+        "title": "네이버지도 모바일 - 신탄진 주변 카페 목록 (설빙 대전신탄진점)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": null
+  },
+  {
+    "match": {
+      "name": "오렌지블로썸",
+      "address": "대전 대덕구 계족산로81번길 70"
+    },
+    "name": "오렌지블로썸 베이커리카페",
+    "category": "bakery",
+    "franchise": false,
+    "district": "대덕구",
+    "address": "대전 대덕구 계족산로81번길 70 (예성프라자 1층)",
+    "phone": "042-624-7111",
+    "instagram": "https://www.instagram.com/bakery.orangeblossom/",
+    "website": "https://smartstore.naver.com/obbc",
+    "hours": {
+      "mon": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "tue": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "wed": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "thu": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "fri": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sat": {
+        "open": "10:00",
+        "close": "22:00"
+      },
+      "sun": null
+    },
+    "holidayNote": "매주 일요일 휴무",
+    "products": [
+      {
+        "name": "블루베리식빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "오이샐러드 샌드위치",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "애플타르트",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "호두 듬뿍 호두 타르트 (12cm)",
+        "price": 10000,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.04)"
+      },
+      {
+        "name": "쿠론노 치즈 타르트 (12cm)",
+        "price": 10000,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.04)"
+      },
+      {
+        "name": "수제 마카롱 6구 선물세트",
+        "price": 12500,
+        "note": "가격 확인 2026-06 (네이버 플레이스 메뉴 업데이트 26.06.04)"
+      }
+    ],
+    "lat": 36.3657583,
+    "lng": 127.43835,
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://daejeontour.co.kr/find_djt/9",
+        "title": "[동네 구석구석] 대덕구 송촌동 > 대전의 재발견 | 대전관광 (2026.06.23)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendView.do?menuSeq=7833&ntatcSeq=1496402755",
+        "title": "대전광역시-대전의 맛 시민추천 빵집(2025 빵산책 in 대전) - 오렌지블로썸",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/37621064/home",
+        "title": "오렌지블로썸 베이커리카페 : 네이버 플레이스",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://m.place.naver.com/restaurant/37621064/menu/list",
+        "title": "오렌지블로썸 베이커리카페 메뉴 : 네이버 플레이스",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "춘당사",
+      "address": "대전 대덕구 송촌북로20번길 21-6"
+    },
+    "name": "춘당사",
+    "category": "dessert",
+    "franchise": false,
+    "district": "대덕구",
+    "address": "대전 대덕구 송촌북로20번길 21-6",
+    "phone": "0507-1484-2246",
+    "instagram": null,
+    "website": null,
+    "hours": null,
+    "holidayNote": null,
+    "products": [
+      {
+        "name": "마카롱",
+        "price": 3500,
+        "note": "가격 확인 2026-06 (당근 업체정보 마지막 수정일 2026-06-02, '3,500원~' 시작가)"
+      },
+      {
+        "name": "르뱅쿠키",
+        "price": 4300,
+        "note": "가격 확인 2026-06 (당근 업체정보 마지막 수정일 2026-06-02, '4,300원~' 시작가)"
+      },
+      {
+        "name": "마카롱 6구세트",
+        "price": 23000,
+        "note": "가격 확인 2026-06 (당근 업체정보 마지막 수정일 2026-06-02, '23,000원~' 시작가)"
+      },
+      {
+        "name": "머랭쿠키",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "퍼지 브라우니",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://www.daejeon.go.kr/fod/BreadRecommendView.do?menuSeq=7833&ntatcSeq=1496409198",
+        "title": "대전광역시-대전의 맛 시민추천 빵집(2025 빵산책 in 대전) - 춘당사(맛카롱)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://daejeontour.co.kr/find_djt/9",
+        "title": "[동네 구석구석] 대덕구 송촌동 > 대전의 재발견 | 대전관광 (2026.06.23)",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.daangn.com/kr/local-profile/%EC%B6%98%EB%8B%B9%EC%82%AC-m1oa7jvqand8/",
+        "title": "춘당사 | 대전광역시 대덕구 송촌동 | 베이커리 | 당근 동네 업체",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  },
+  {
+    "match": {
+      "name": "카페누룽지",
+      "address": "대전 대덕구 덕암북로 65"
+    },
+    "name": "카페누룽지",
+    "category": "bakery",
+    "franchise": false,
+    "district": "대덕구",
+    "address": "대전 대덕구 덕암북로 65",
+    "phone": null,
+    "instagram": null,
+    "website": null,
+    "hours": {
+      "mon": null,
+      "tue": {
+        "open": "12:00",
+        "close": "15:00"
+      },
+      "wed": {
+        "open": "12:00",
+        "close": "15:00"
+      },
+      "thu": {
+        "open": "12:00",
+        "close": "15:00"
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "15:00"
+      },
+      "sat": null,
+      "sun": null
+    },
+    "holidayNote": "매주 토·일·월요일 휴무",
+    "products": [
+      {
+        "name": "소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "누룽지소금빵",
+        "price": null,
+        "note": null
+      },
+      {
+        "name": "크림치즈찹쌀떡누룽지",
+        "price": null,
+        "note": null
+      }
+    ],
+    "photos": [],
+    "sources": [
+      {
+        "url": "https://ebook.ebooknara.com/2026/1008/files/basic-html/page51.html",
+        "title": "대전의 맛 - 오늘도 대전에서 잘 먹었습니다. (대전광역시 식의약안전과, 2026년 10월) 51페이지 · 카페누룽지",
+        "checkedAt": "2026-11-09"
+      },
+      {
+        "url": "https://www.wikitree.co.kr/articles/1162266",
+        "title": "위키트리 - 2026 대전 빵축제 기간, 빵집 라인업 알아보니 (2026-09-27)",
+        "checkedAt": "2026-11-09"
+      }
+    ],
+    "verifiedAt": "2026-11-09"
+  }
+]

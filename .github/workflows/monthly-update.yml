@@ -1,0 +1,90 @@
+name: 월간 데이터 갱신
+
+# 매월 1일 03:00 KST(= 전월 말일 18:00 UTC)에 인허가 데이터를 다시 받아 data/stores.json 을 만든다.
+# 결과가 바뀌면 data-update/YYYY-MM 브랜치로 PR 을 열거나 갱신한다. main 에는 절대 직접 push 하지 않는다.
+# PR 병합이 사람 검수 단계다. 어느 단계든 실패하면 PR 없이 끝나므로 main 은 그대로다.
+on:
+  schedule:
+    - cron: "0 18 28-31 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: monthly-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: 실행일 확인 (예약 실행은 KST 1일에만)
+        id: gate
+        run: |
+          day=$(TZ=Asia/Seoul date +%d)
+          month=$(TZ=Asia/Seoul date +%Y-%m)
+          echo "month=$month" >> "$GITHUB_OUTPUT"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$day" = "01" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "KST ${day}일 — 1일이 아니므로 건너뜀"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.run == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pipeline/requirements.txt
+
+      - name: 의존성 설치
+        if: steps.gate.outputs.run == 'true'
+        run: pip install -r pipeline/requirements.txt
+
+      - name: 인허가 데이터 받기
+        if: steps.gate.outputs.run == 'true'
+        run: python pipeline/fetch.py
+
+      - name: 기본 목록 만들기
+        if: steps.gate.outputs.run == 'true'
+        run: python pipeline/build_base.py
+
+      - name: curated 병합
+        if: steps.gate.outputs.run == 'true'
+        run: python pipeline/merge.py
+
+      - name: 변경 여부 확인
+        if: steps.gate.outputs.run == 'true'
+        id: diff
+        run: |
+          cat pipeline/out/report.md >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "$(git status --porcelain -- data/stores.json)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "stores.json 변경 없음 — PR 을 만들지 않음"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: PR 열기/갱신
+        if: steps.gate.outputs.run == 'true' && steps.diff.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: main
+          branch: data-update/${{ steps.gate.outputs.month }}
+          delete-branch: true
+          add-paths: |
+            data/raw/**
+            data/base/stores_base.json
+            data/stores.json
+          commit-message: "data: ${{ steps.gate.outputs.month }} 인허가 데이터 갱신"
+          title: "데이터 갱신 ${{ steps.gate.outputs.month }}"
+          body-path: pipeline/out/report.md
+          labels: data-update

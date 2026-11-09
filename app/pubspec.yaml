@@ -1,0 +1,28 @@
+name: bbangji_sunrye
+description: 대전 빵집·디저트·도넛·아이스크림·빙수 가게 지도 '빵지순례'
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  kakao_map_sdk: ^1.3.1
+  geolocator: any
+  http: any
+  path_provider: any
+  provider: any
+  shared_preferences: any
+  url_launcher: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/stores.json
