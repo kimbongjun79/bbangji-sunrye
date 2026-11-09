@@ -13,15 +13,15 @@
 
 ## 앱 빌드
 
-필요: Flutter SDK, JDK 17, Android SDK, 카카오 네이티브 앱 키, `keys/key.properties`(서명 키, 저장소 밖 보관).
+필요: Flutter SDK, JDK 17, Android SDK, `keys/key.properties`(서명 키), `keys/kakao.env`(카카오 네이티브 앱 키). `keys/`는 저장소에 올리지 않는다.
 
 ```bash
 cd app
-flutter build apk --release --split-per-abi --target-platform android-arm,android-arm64 \
-  --dart-define=KAKAO_NATIVE_KEY=<네이티브 앱 키>
+flutter build apk --release --target-platform android-arm,android-arm64 \
+  --dart-define=KAKAO_NATIVE_KEY=<keys/kakao.env의 값>
 ```
 
-카카오맵 SDK는 ARM만 지원한다. x86_64 에뮬레이터에서는 `--target-platform android-arm64`로 빌드하면 ARM 변환으로 실행된다.
+카카오맵 SDK는 ARM만 지원해 APK에 ARM 라이브러리만 담는다. x86_64 에뮬레이터에서는 ARM 변환으로 실행된다.
 
 카카오 개발자 콘솔의 Android 플랫폼에는 패키지명 `com.bbangji.sunrye`와 서명 키의 키 해시를 등록해야 한다.
 

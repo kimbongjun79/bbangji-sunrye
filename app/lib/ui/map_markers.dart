@@ -7,6 +7,7 @@ import 'theme.dart';
 /// 지도 마커 스타일. 위젯을 이미지로 그려 캐시한다(스타일 등록은 지도별로 1회).
 class MarkerStyles {
   final Map<String, PoiStyle> _cache = {};
+  // KImage.fromWidget은 기기 픽셀 비율로 그린 이미지를 만든다. applyDpScale을 켜면 한 번 더 확대되므로 끈다.
 
   Future<PoiStyle> store(StoreCategory c, {bool selected = false, bool showName = false}) async {
     final key = 'store-${c.key}-$selected-$showName';
@@ -16,9 +17,10 @@ class MarkerStyles {
     final icon = await KImage.fromWidget(_Pin(color: categoryColor(c), icon: categoryIcon(c), size: size), Size(size, size * 1.25));
     return _cache[key] = PoiStyle(
       icon: icon,
+      applyDpScale: false,
       anchor: const KPoint(0.5, 1.0),
       textStyle: showName || selected
-          ? [const PoiTextStyle(size: 26, color: Palette.espresso, stroke: 4, strokeColor: Colors.white)]
+          ? [const PoiTextStyle(size: 36, color: Palette.espresso, stroke: 5, strokeColor: Colors.white)]
           : const [],
     );
   }
@@ -30,7 +32,7 @@ class MarkerStyles {
     if (cached != null) return cached;
     final d = count < 10 ? 40.0 : count < 100 ? 48.0 : 56.0;
     final icon = await KImage.fromWidget(_Cluster(label: label, diameter: d), Size(d, d));
-    return _cache[key] = PoiStyle(icon: icon, anchor: const KPoint(0.5, 0.5));
+    return _cache[key] = PoiStyle(icon: icon, applyDpScale: false, anchor: const KPoint(0.5, 0.5));
   }
 
   Future<PoiStyle> numbered(int n) async {
@@ -38,14 +40,14 @@ class MarkerStyles {
     final cached = _cache[key];
     if (cached != null) return cached;
     final icon = await KImage.fromWidget(_Numbered(n: n), const Size(34, 34));
-    return _cache[key] = PoiStyle(icon: icon, anchor: const KPoint(0.5, 0.5));
+    return _cache[key] = PoiStyle(icon: icon, applyDpScale: false, anchor: const KPoint(0.5, 0.5));
   }
 
   Future<PoiStyle> me() async {
     final cached = _cache['me'];
     if (cached != null) return cached;
     final icon = await KImage.fromWidget(const _Me(), const Size(26, 26));
-    return _cache['me'] = PoiStyle(icon: icon, anchor: const KPoint(0.5, 0.5));
+    return _cache['me'] = PoiStyle(icon: icon, applyDpScale: false, anchor: const KPoint(0.5, 0.5));
   }
 }
 

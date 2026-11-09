@@ -27,10 +27,9 @@ class _MapScreenState extends State<MapScreen> {
   final _styles = MarkerStyles();
 
   KakaoMapController? _map;
-  LabelController? _storeLayer;
+  List<Poi> _storePois = const [];
   LabelController? _meLayer;
   Poi? _mePoi;
-  int _layerSeq = 0;
   int _renderSeq = 0;
   bool _rendering = false;
   bool _renderAgain = false;
@@ -78,7 +77,7 @@ class _MapScreenState extends State<MapScreen> {
 
   Future<void> _onMapReady(KakaoMapController controller) async {
     _map = controller;
-    _meLayer = await controller.addLabelLayer('me', zOrder: 20000);
+    _meLayer = controller.labelLayer;
     await _renderMarkers();
     unawaited(_locateMe(move: true));
   }
@@ -130,37 +129,49 @@ class _MapScreenState extends State<MapScreen> {
 
   Future<void> _renderOnce(KakaoMapController map) async {
     final seq = ++_renderSeq;
-    final ctx = _mapKey.currentContext;
-    if (ctx == null) return;
-    final boundsFuture = map.getBounds(ctx);
+    final box = _mapKey.currentContext?.findRenderObject();
+    if (box is! RenderBox || !box.hasSize) return;
+    // fromScreenPoint는 물리 픽셀 좌표를 받는다(플러그인 getBounds는 논리 크기를 넘겨 화면 일부만 계산됨).
+    final dpr = MediaQuery.devicePixelRatioOf(context);
+    final w = (box.size.width * dpr).round();
+    final h = (box.size.height * dpr).round();
     final camera = await map.getCameraPosition();
-    final bounds = await boundsFuture;
-    if (bounds == null) return;
+    final corners = await Future.wait([map.fromScreenPoint(0, 0), map.fromScreenPoint(w, h)]);
+    final nw = corners[0];
+    final se = corners[1];
+    if (nw == null || se == null) return;
     _center = GeoPoint(camera.position.latitude, camera.position.longitude);
     _zoom = camera.zoomLevel;
 
     final groups = clusterStores(
       _state.filteredStores(),
-      Bounds(south: bounds.sw.latitude, west: bounds.sw.longitude, north: bounds.ne.latitude, east: bounds.ne.longitude),
+      Bounds(
+        south: se.latitude < nw.latitude ? se.latitude : nw.latitude,
+        north: se.latitude < nw.latitude ? nw.latitude : se.latitude,
+        west: nw.longitude < se.longitude ? nw.longitude : se.longitude,
+        east: nw.longitude < se.longitude ? se.longitude : nw.longitude,
+      ),
       zoomLevel: _zoom,
     );
     final showNames = _zoom >= 16;
 
-    final layer = await map.addLabelLayer('stores-${++_layerSeq}', competitionType: CompetitionType.none, zOrder: 10000);
+    // 기본 레이어에 새 마커를 모두 올린 뒤 이전 마커를 지운다(깜빡임 최소화).
+    final layer = map.labelLayer;
+    final added = <Poi>[];
     for (final g in groups) {
       if (seq != _renderSeq) break;
       if (g.isSingle) {
         final s = g.stores.first;
         final selected = s.id == _selected?.id;
-        await layer.addPoi(
+        added.add(await layer.addPoi(
           LatLng(s.lat, s.lng),
           style: await _styles.store(s.category, selected: selected, showName: showNames),
           text: showNames || selected ? s.name : null,
           rank: selected ? 1000 : 0,
           onClick: () => _select(s),
-        );
+        ));
       } else {
-        await layer.addPoi(
+        added.add(await layer.addPoi(
           LatLng(g.lat, g.lng),
           style: await _styles.cluster(g.stores.length),
           rank: g.stores.length,
@@ -168,12 +179,12 @@ class _MapScreenState extends State<MapScreen> {
             CameraUpdate.newCenterPosition(LatLng(g.lat, g.lng), zoomLevel: _zoom + 2),
             animation: const CameraAnimation(300),
           ),
-        );
+        ));
       }
     }
-    final old = _storeLayer;
-    _storeLayer = layer;
-    if (old != null) await map.removeLabelLayer(old);
+    final old = _storePois;
+    _storePois = added;
+    await Future.wait(old.map(layer.removePoi));
     if (mounted) setState(() {});
   }
 

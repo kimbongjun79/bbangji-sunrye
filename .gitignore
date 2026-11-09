@@ -12,3 +12,4 @@ __pycache__/
 pipeline/out/
 *.iml
 .idea/
+dist/

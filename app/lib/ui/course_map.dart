@@ -20,9 +20,8 @@ class _CourseMapState extends State<CourseMap> {
   final _styles = MarkerStyles();
   final _routeStyle = RouteStyle(Palette.cocoa.withValues(alpha: 0.75), 8, strokeColor: Colors.white, strokeWidth: 2);
   KakaoMapController? _map;
-  LabelController? _layer;
+  List<Poi> _pois = const [];
   Route? _route;
-  int _seq = 0;
   bool _busy = false;
   bool _again = false;
 
@@ -55,19 +54,20 @@ class _CourseMapState extends State<CourseMap> {
   }
 
   Future<void> _drawOnce(KakaoMapController map) async {
-    final layer = await map.addLabelLayer('course-${++_seq}', competitionType: CompetitionType.none);
+    final layer = map.labelLayer;
+    final added = <Poi>[];
     final points = [for (final s in widget.stores) LatLng(s.lat, s.lng)];
     for (var i = 0; i < widget.stores.length; i++) {
-      await layer.addPoi(points[i], style: await _styles.numbered(i + 1), rank: 1000 - i);
+      added.add(await layer.addPoi(points[i], style: await _styles.numbered(i + 1), rank: 1000 - i));
     }
     final start = widget.start;
     final path = [if (start != null) LatLng(start.lat, start.lng), ...points];
-    if (start != null) await layer.addPoi(LatLng(start.lat, start.lng), style: await _styles.me());
+    if (start != null) added.add(await layer.addPoi(LatLng(start.lat, start.lng), style: await _styles.me()));
     if (_route != null) await map.routeLayer.removeRoute(_route!);
     _route = path.length >= 2 ? await map.routeLayer.addRoute(path, _routeStyle) : null;
-    final old = _layer;
-    _layer = layer;
-    if (old != null) await map.removeLabelLayer(old);
+    final old = _pois;
+    _pois = added;
+    await Future.wait(old.map(layer.removePoi));
     if (path.isNotEmpty) {
       await map.moveCamera(path.length == 1
           ? CameraUpdate.newCenterPosition(path.first, zoomLevel: 16)
