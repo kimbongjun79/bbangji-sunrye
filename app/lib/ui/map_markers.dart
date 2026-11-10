@@ -20,18 +20,19 @@ class MarkerStyles {
       applyDpScale: false,
       anchor: const KPoint(0.5, 1.0),
       textStyle: showName || selected
-          ? [const PoiTextStyle(size: 36, color: Palette.espresso, stroke: 5, strokeColor: Colors.white)]
+          ? [const PoiTextStyle(size: 32, color: Palette.espresso, stroke: 6, strokeColor: Colors.white)]
           : const [],
     );
   }
 
-  Future<PoiStyle> cluster(int count) async {
+  Future<PoiStyle> cluster(int count, {bool sameSpot = false}) async {
     final label = count > 999 ? '999+' : '$count';
-    final key = 'cluster-$label';
+    final key = 'cluster-$label-$sameSpot';
     final cached = _cache[key];
     if (cached != null) return cached;
     final d = count < 10 ? 40.0 : count < 100 ? 48.0 : 56.0;
-    final icon = await KImage.fromWidget(_Cluster(label: label, diameter: d), Size(d, d));
+    final size = sameSpot ? Size(d * 1.6, d * 0.8) : Size(d, d);
+    final icon = await KImage.fromWidget(_Cluster(label: sameSpot ? '$label곳' : label, size: size, sameSpot: sameSpot), size);
     return _cache[key] = PoiStyle(icon: icon, applyDpScale: false, anchor: const KPoint(0.5, 0.5));
   }
 
@@ -94,25 +95,30 @@ class _TailPainter extends CustomPainter {
   bool shouldRepaint(_TailPainter old) => old.color != color;
 }
 
+/// 넓은 범위 묶음: 갈색 원. 같은 건물 묶음: 버터색 알약(‘3곳’).
 class _Cluster extends StatelessWidget {
-  const _Cluster({required this.label, required this.diameter});
+  const _Cluster({required this.label, required this.size, required this.sameSpot});
   final String label;
-  final double diameter;
+  final Size size;
+  final bool sameSpot;
 
   @override
   Widget build(BuildContext context) => Directionality(
         textDirection: TextDirection.ltr,
         child: Container(
-          width: diameter,
-          height: diameter,
+          width: size.width,
+          height: size.height,
           alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: Palette.cocoa.withValues(alpha: 0.92),
-            shape: BoxShape.circle,
-            border: Border.all(color: Palette.butter, width: 3),
+            color: sameSpot ? Palette.butter : Palette.cocoa.withValues(alpha: 0.92),
+            borderRadius: BorderRadius.circular(size.height / 2),
+            border: Border.all(color: sameSpot ? Palette.cocoa : Palette.butter, width: 2.5),
           ),
           child: Text(label,
-              style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: diameter * 0.32)),
+              style: TextStyle(
+                  color: sameSpot ? Palette.espresso : Colors.white,
+                  fontWeight: FontWeight.w800,
+                  fontSize: size.height * (sameSpot ? 0.42 : 0.32))),
         ),
       );
 }

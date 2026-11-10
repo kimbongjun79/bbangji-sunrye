@@ -40,6 +40,8 @@ class BbangjiApp extends StatelessWidget {
         title: '빵지순례',
         debugShowCheckedModeBanner: false,
         theme: buildTheme(),
+        // 시스템 글자 크기를 크게 해도 지도 위 카드·버튼이 깨지지 않도록 1.2배까지만 반영.
+        builder: (context, child) => MediaQuery.withClampedTextScaling(maxScaleFactor: 1.2, child: child!),
         home: const HomeShell(),
       );
 }

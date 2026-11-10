@@ -16,7 +16,7 @@ class StatusText extends StatelessWidget {
     final status = context.watch<AppState>().statusOf(store);
     return Text(
       status.label,
-      style: TextStyle(color: statusColor(status.state), fontWeight: FontWeight.w700, fontSize: 13),
+      style: TextStyle(color: statusColor(status.state), fontWeight: FontWeight.w600, fontSize: 13),
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
     );
@@ -36,7 +36,7 @@ class CategoryPill extends StatelessWidget {
       child: Row(mainAxisSize: MainAxisSize.min, children: [
         Icon(categoryIcon(category), size: 14, color: color),
         const SizedBox(width: 4),
-        Text(category.label, style: TextStyle(fontSize: 12, color: color, fontWeight: FontWeight.w700)),
+        Text(category.shortLabel, style: TextStyle(fontSize: 12, color: color, fontWeight: FontWeight.w700)),
       ]),
     );
   }
@@ -88,25 +88,23 @@ class StoreTile extends StatelessWidget {
     return InkWell(
       onTap: onTap ?? () => openStoreDetail(context, store),
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         child: Row(children: [
-          StoreThumb(store),
-          const SizedBox(width: 12),
+          StoreThumb(store, size: 60, radius: 16),
+          const SizedBox(width: 14),
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+              Text(store.name,
+                  style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16, height: 1.2),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis),
+              const SizedBox(height: 6),
               Row(children: [
-                Flexible(
-                  child: Text(store.name,
-                      style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 16),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis),
-                ),
-                const SizedBox(width: 6),
                 CategoryPill(store.category),
+                const SizedBox(width: 8),
+                Flexible(child: StatusText(store)),
               ]),
-              const SizedBox(height: 3),
-              StatusText(store),
-              const SizedBox(height: 2),
+              const SizedBox(height: 4),
               Text(
                 [?distance, signature.isEmpty ? store.district : signature].join(' · '),
                 style: const TextStyle(color: Palette.muted, fontSize: 13),

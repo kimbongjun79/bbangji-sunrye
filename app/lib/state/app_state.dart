@@ -46,7 +46,7 @@ class AppState extends ChangeNotifier {
   DataSyncState syncState = DataSyncState.idle;
 
   String query = '';
-  final Set<StoreCategory> categories = {...StoreCategory.values};
+  final Set<StoreCategory> categories = {};
   bool openNowOnly = false;
 
   final Set<String> favorites = {};
@@ -98,12 +98,9 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// 선택한 업종만 보기. 아무것도 선택하지 않으면 전체.
   void toggleCategory(StoreCategory c) {
-    if (categories.contains(c)) {
-      if (categories.length > 1) categories.remove(c);
-    } else {
-      categories.add(c);
-    }
+    categories.contains(c) ? categories.remove(c) : categories.add(c);
     notifyListeners();
   }
 
@@ -118,7 +115,7 @@ class AppState extends ChangeNotifier {
     final terms = q.isEmpty ? const <String>[] : [q];
     final result = [
       for (final s in allStores)
-        if (categories.contains(s.category) &&
+        if ((categories.isEmpty || categories.contains(s.category)) &&
             terms.every(s.searchText.contains) &&
             (!openNowOnly || statusOf(s).isOpen))
           s,

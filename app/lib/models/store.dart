@@ -1,11 +1,12 @@
 enum StoreCategory {
-  bakery('bakery', '빵집'),
-  dessert('dessert', '디저트'),
-  frozen('frozen', '도넛·아이스크림·빙수');
+  bakery('bakery', '빵집', '빵집'),
+  dessert('dessert', '디저트', '디저트'),
+  frozen('frozen', '도넛·아이스크림·빙수', '도넛·빙수');
 
-  const StoreCategory(this.key, this.label);
+  const StoreCategory(this.key, this.label, this.shortLabel);
   final String key;
   final String label;
+  final String shortLabel;
 
   static StoreCategory parse(String? key) =>
       values.firstWhere((c) => c.key == key, orElse: () => bakery);
