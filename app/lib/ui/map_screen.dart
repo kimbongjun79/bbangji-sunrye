@@ -78,6 +78,7 @@ class _MapScreenState extends State<MapScreen> {
   Future<void> _onMapReady(KakaoMapController controller) async {
     _map = controller;
     _meLayer = controller.labelLayer;
+    await hideBaseMapPois(controller);
     await _renderMarkers();
     unawaited(_locateMe(move: true));
   }

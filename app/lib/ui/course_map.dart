@@ -83,8 +83,9 @@ class _CourseMapState extends State<CourseMap> {
         position: first == null ? const LatLng(36.3504, 127.3845) : LatLng(first.lat, first.lng),
         zoomLevel: 14,
       ),
-      onMapReady: (c) {
+      onMapReady: (c) async {
         _map = c;
+        await hideBaseMapPois(c);
         _draw();
       },
     );

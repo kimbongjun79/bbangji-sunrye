@@ -4,6 +4,30 @@ import 'package:kakao_map_sdk/kakao_map_sdk.dart';
 import '../models/store.dart';
 import 'theme.dart';
 
+/// 기본 지도의 상가·시설·건물 POI를 숨겨 빵지순례 마커만 눈에 띄게 한다.
+/// 동네 이름·도로·지하철역은 위치 파악용으로 남긴다. Android 외 플랫폼은 지원하지 않아 무시한다.
+Future<void> hideBaseMapPois(KakaoMapController map) async {
+  try {
+    await map.setVisiblePoiCategory(const [
+      'PLACE',
+      'BRAND',
+      'FACILITIES',
+      'PUBLIC_FACILITIES',
+      'BUS_STOP',
+      'INDOOR',
+      'INDOOR_PLACE',
+      'DETAIL_CATEGORY',
+      'APART_NUMBER',
+      'APART_DETAIL',
+      'HOUSE_NUMBER',
+      'CLIMB',
+      'CLIMB_WAVE',
+    ], false);
+  } catch (_) {
+    // 미지원 플랫폼: 기본 지도 그대로 사용.
+  }
+}
+
 /// 지도 마커 스타일. 위젯을 이미지로 그려 캐시한다(스타일 등록은 지도별로 1회).
 class MarkerStyles {
   final Map<String, PoiStyle> _cache = {};

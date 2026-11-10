@@ -9,7 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  kakao_map_sdk: ^1.3.1
+  # 기본 지도 POI 숨김 기능을 추가한 사본(원본 1.3.1, BSD-3). third_party/kakao_map_sdk/BBANGJI_CHANGES.md 참고
+  kakao_map_sdk:
+    path: third_party/kakao_map_sdk
   geolocator: any
   http: any
   path_provider: any
