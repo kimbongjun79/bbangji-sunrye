@@ -21,7 +21,21 @@
 > 다른 상호는 지우고, 빵·디저트 가게만 남긴 지도.
 > 개인·지인용으로 만든 비공식 앱입니다.
 
----
+<div align="center">
+
+[![Android APK 다운로드](https://img.shields.io/badge/Android-APK%20다운로드-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/kimbongjun79/bbangji-sunrye/releases/latest/download/bbangji-sunrye.apk)
+
+<sub>최신 버전 · Android 7.0 이상 · <a href="https://github.com/kimbongjun79/bbangji-sunrye/releases">모든 버전 보기</a></sub>
+
+</div>
+
+### 📲 설치 방법
+
+1. 휴대폰에서 위 **APK 다운로드** 버튼을 누릅니다.
+2. 받은 `bbangji-sunrye.apk`를 엽니다. ‘출처를 알 수 없는 앱’ 안내가 나오면 설치를 허용합니다.
+3. 처음 실행할 때 위치 권한을 허용하면 내 주변 가게부터 보여줍니다.
+
+새 버전은 같은 방법으로 덮어 설치하면 됩니다. 찜과 코스는 그대로 남습니다. 가게 데이터는 앱을 열 때 자동으로 최신화됩니다.
 
 ## 🥐 주요 기능
 
