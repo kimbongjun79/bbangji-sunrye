@@ -1,0 +1,87 @@
+name: iOS 빌드
+
+# 맥 없이 아이폰 앱을 만든다.
+# - 서명하지 않은 IPA(bbangji-sunrye.ipa): Sideloadly/AltStore가 설치할 때 각자의 Apple ID로 서명한다.
+# - 시뮬레이터 실행 화면 캡처: 빌드가 실제로 뜨는지 확인용.
+# 수동 실행하거나 v* 태그를 올리면 실행되고, 태그면 같은 릴리스에 IPA를 첨부한다.
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  ios:
+    runs-on: macos-15
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: app
+    env:
+      KAKAO_NATIVE_KEY: ${{ secrets.KAKAO_NATIVE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: 3.47.9
+          channel: stable
+          cache: true
+
+      - name: 의존성
+        run: flutter pub get
+
+      - name: 단위 테스트
+        run: flutter test
+
+      - name: 기기용 빌드 (서명 없음)
+        run: flutter build ios --release --no-codesign --dart-define=KAKAO_NATIVE_KEY="$KAKAO_NATIVE_KEY"
+
+      - name: IPA 묶기
+        run: |
+          rm -rf build/ipa && mkdir -p build/ipa/Payload
+          cp -R build/ios/iphoneos/Runner.app build/ipa/Payload/
+          (cd build/ipa && zip -qry bbangji-sunrye.ipa Payload)
+          ls -lh build/ipa/bbangji-sunrye.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbangji-sunrye-ipa
+          path: app/build/ipa/bbangji-sunrye.ipa
+
+      - name: 릴리스에 첨부
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${GITHUB_REF_NAME}" build/ipa/bbangji-sunrye.ipa --clobber
+
+      - name: 시뮬레이터 빌드
+        run: flutter build ios --simulator --debug --dart-define=KAKAO_NATIVE_KEY="$KAKAO_NATIVE_KEY"
+
+      - name: 시뮬레이터 실행·화면 캡처
+        run: |
+          set -x
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)['devices']
+          ids=[x['udid'] for k,v in d.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone')]
+          print(ids[-1])")
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b
+          xcrun simctl location "$UDID" set 36.3504,127.3845
+          xcrun simctl privacy "$UDID" grant location-always com.bbangji.sunrye || true
+          xcrun simctl install "$UDID" build/ios/iphonesimulator/Runner.app
+          xcrun simctl privacy "$UDID" grant location com.bbangji.sunrye || true
+          xcrun simctl launch "$UDID" com.bbangji.sunrye
+          sleep 60
+          mkdir -p build/sim
+          xcrun simctl io "$UDID" screenshot build/sim/launch.png
+          xcrun simctl spawn "$UDID" log show --last 2m --predicate 'process == "Runner"' --style compact > build/sim/runner.log || true
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ios-simulator
+          path: app/build/sim/

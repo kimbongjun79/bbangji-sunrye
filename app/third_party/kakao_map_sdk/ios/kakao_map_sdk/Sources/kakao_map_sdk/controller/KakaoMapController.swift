@@ -161,6 +161,11 @@ class KakaoMapController: KakaoMapControllerSender, KakaoMapControllerHandler {
         onSuccess(nil)
     }
 
+    func setVisiblePoiCategory(categories: [String], visible: Bool, onSuccess: (Any?) -> Void) {
+        kakaoMap.setPoiEnabled(visible)
+        onSuccess(nil)
+    }
+
     func overlayVisible(overlayType: String, visible: Bool, onSuccess: (Any?) -> Void) {
         if visible {
             kakaoMap.showOverlay(overlayType)

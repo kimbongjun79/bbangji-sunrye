@@ -32,6 +32,8 @@ protocol KakaoMapControllerHandler {
 
     func changeMapType(mapType: String, onSuccess: (Any?) -> Void)
 
+    func setVisiblePoiCategory(categories: [String], visible: Bool, onSuccess: (Any?) -> Void)
+
     func overlayVisible(overlayType: String, visible: Bool, onSuccess: (Any?) -> Void)
 
     func defaultGUIvisible(type: DefaultGUIType, visible: Bool, onSuccess: (Any?) -> Void)
@@ -81,6 +83,13 @@ extension KakaoMapControllerHandler {
             let position = asArray(arguments!["position"]!, caster: { MapPoint(payload: asDict($0)) })
             canPositionVisible(zoomLevel: zoomLevel, position: position, onSuccess: result)
         case "changeMapType": changeMapType(mapType: asString(arguments!["mapType"]!), onSuccess: result)
+        // 빵지순례 추가: iOS SDK는 카테고리별 제어가 없어 기본 지도 POI 전체를 켜고 끈다.
+        case "setVisiblePoiCategory":
+            setVisiblePoiCategory(
+                categories: asArray(arguments!["categories"]!, caster: { asString($0) }),
+                visible: asBool(arguments!["visible"]!),
+                onSuccess: result
+            )
         case "overlayVisible":
             overlayVisible(
                 overlayType: asString(arguments!["overlayType"]!),
