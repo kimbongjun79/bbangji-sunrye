@@ -8,6 +8,7 @@
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.47-02569B?logo=flutter&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-7.0%2B-3DDC84?logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-15%2B-000000?logo=apple&logoColor=white)
 ![Kakao Map](https://img.shields.io/badge/Kakao%20Maps%20SDK-v2-FFCD00?logo=kakao&logoColor=black)
 ![Data](https://img.shields.io/badge/가게-982곳-C98B4E)
 ![Update](https://img.shields.io/badge/데이터-매월%20자동%20갱신-5B3A22)
@@ -24,18 +25,34 @@
 <div align="center">
 
 [![Android APK 다운로드](https://img.shields.io/badge/Android-APK%20다운로드-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/kimbongjun79/bbangji-sunrye/releases/latest/download/bbangji-sunrye.apk)
+[![iPhone IPA 다운로드](https://img.shields.io/badge/iPhone-IPA%20다운로드-000000?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/kimbongjun79/bbangji-sunrye/releases/latest/download/bbangji-sunrye.ipa)
 
-<sub>최신 버전 · Android 7.0 이상 · <a href="https://github.com/kimbongjun79/bbangji-sunrye/releases">모든 버전 보기</a></sub>
+<sub>최신 버전 · Android 7.0 이상 · iOS 15 이상 · <a href="https://github.com/kimbongjun79/bbangji-sunrye/releases">모든 버전 보기</a></sub>
 
 </div>
 
-### 📲 설치 방법
+### 📲 Android 설치
 
 1. 휴대폰에서 위 **APK 다운로드** 버튼을 누릅니다.
 2. 받은 `bbangji-sunrye.apk`를 엽니다. ‘출처를 알 수 없는 앱’ 안내가 나오면 설치를 허용합니다.
 3. 처음 실행할 때 위치 권한을 허용하면 내 주변 가게부터 보여줍니다.
 
 새 버전은 같은 방법으로 덮어 설치하면 됩니다. 찜과 코스는 그대로 남습니다. 가게 데이터는 앱을 열 때 자동으로 최신화됩니다.
+
+### 🍎 iPhone 설치 (Windows PC + 무료 Apple ID)
+
+아이폰은 앱스토어 밖의 앱을 바로 설치할 수 없어서, PC에서 **내 Apple ID로 서명해 설치**합니다. 무료 Apple ID로 설치한 앱은 **7일마다 다시 서명**해야 합니다.
+
+1. PC에 [iTunes](https://www.apple.com/kr/itunes/)와 [iCloud](https://support.apple.com/ko-kr/103232)를 애플 홈페이지 설치본으로 깔고, [Sideloadly](https://sideloadly.io/)를 설치합니다.
+2. 위 **IPA 다운로드** 버튼으로 `bbangji-sunrye.ipa`를 받습니다.
+3. 아이폰을 USB로 PC에 연결하고 아이폰에서 ‘이 컴퓨터 신뢰’를 누릅니다.
+4. Sideloadly에 IPA를 끌어다 놓고 Apple ID를 입력한 뒤 **Start**를 누릅니다.
+5. 아이폰 **설정 → 일반 → VPN 및 기기 관리**에서 내 Apple ID를 신뢰합니다.
+6. iOS 16 이상은 **설정 → 개인정보 보호 및 보안 → 개발자 모드**를 켜고 재시동합니다.
+
+7일이 지나 앱이 열리지 않으면 4번을 다시 하면 됩니다(찜·코스 유지). Sideloadly의 자동 갱신을 켜 두면 PC와 아이폰이 같은 와이파이에 있을 때 자동으로 다시 서명합니다.
+
+> 지도는 번들 ID `com.bbangji.sunrye`로만 인증됩니다. 설치 중 “App ID가 사용 중”이라는 오류가 나면 관리자에게 알려주세요(다른 번들 ID를 카카오에 추가 등록해야 합니다).
 
 ## 🥐 주요 기능
 
@@ -90,6 +107,7 @@ data/curated/*.json ─────────┘     (main 브랜치 = 검수 
 | [`pipeline/`](pipeline) | 수집·분류·병합 스크립트 ([설명](pipeline/README.md)) |
 | [`docs/DATA_SCHEMA.md`](docs/DATA_SCHEMA.md) | 데이터 형식 |
 | [`.github/workflows/monthly-update.yml`](.github/workflows/monthly-update.yml) | 월간 자동 갱신 |
+| [`.github/workflows/ios-build.yml`](.github/workflows/ios-build.yml) | 아이폰 빌드(맥 없이 GitHub에서 IPA 생성) |
 
 ## 🛠️ 빌드
 
@@ -105,7 +123,8 @@ flutter build apk --release --target-platform android-arm,android-arm64 \
 ```
 
 - 카카오맵 SDK는 ARM 전용이라 APK에 ARM 라이브러리만 담습니다. x86_64 에뮬레이터에서는 ARM 변환으로 실행됩니다.
-- 카카오 개발자 콘솔 **[앱] → [플랫폼 키] → [네이티브 앱 키]**에 패키지명 `com.bbangji.sunrye`와 서명 키의 키 해시를 등록하고, **[카카오맵] → [사용 설정]**을 켜야 지도가 표시됩니다.
+- 카카오 개발자 콘솔 **[앱] → [플랫폼 키] → [네이티브 앱 키]**에 패키지명 `com.bbangji.sunrye`·서명 키의 키 해시(Android), 번들 ID `com.bbangji.sunrye`(iOS)를 등록하고, **[카카오맵] → [사용 설정]**을 켜야 지도가 표시됩니다.
+- **아이폰**: 맥이 없어도 GitHub Actions의 `iOS 빌드` 워크플로를 실행하면 서명 없는 IPA와 시뮬레이터 실행 화면이 만들어집니다(저장소 시크릿 `KAKAO_NATIVE_KEY` 필요). `v*` 태그를 올리면 릴리스에 IPA가 첨부됩니다. iOS 지도 SDK는 기본 지도 표시를 종류별로 끌 수 없어, 아이폰에서는 지하철역 등 기본 표시가 모두 숨겨집니다.
 
 ### 데이터 직접 갱신
 
